@@ -1,0 +1,6546 @@
+{
+  "eda": {
+    "total_samples": 10000,
+    "failure_rate": 0.0339,
+    "failure_modes": {
+      "TWF": 46,
+      "HDF": 115,
+      "PWF": 95,
+      "OSF": 98,
+      "RNF": 19
+    },
+    "type_distribution": {
+      "L": 6000,
+      "M": 2997,
+      "H": 1003
+    },
+    "type_failure_rates": {
+      "H": 0.020937188434695914,
+      "L": 0.03916666666666667,
+      "M": 0.02769436102769436
+    },
+    "histograms": {
+      "Air_Temp": {
+        "counts": [
+          80,
+          73,
+          92,
+          308,
+          693,
+          701,
+          872,
+          748,
+          710,
+          434,
+          776,
+          1118,
+          529,
+          650,
+          435,
+          768,
+          298,
+          254,
+          352,
+          109
+        ],
+        "edges": [
+          295.3,
+          295.76,
+          296.22,
+          296.68,
+          297.14,
+          297.6,
+          298.06,
+          298.52,
+          298.98,
+          299.44,
+          299.9,
+          300.36,
+          300.82,
+          301.28000000000003,
+          301.74,
+          302.2,
+          302.66,
+          303.12,
+          303.58,
+          304.04,
+          304.5
+        ]
+      },
+      "Process_Temp": {
+        "counts": [
+          42,
+          56,
+          26,
+          97,
+          292,
+          551,
+          839,
+          816,
+          824,
+          868,
+          812,
+          912,
+          1101,
+          843,
+          702,
+          439,
+          325,
+          203,
+          184,
+          68
+        ],
+        "edges": [
+          305.7,
+          306.105,
+          306.51,
+          306.91499999999996,
+          307.32,
+          307.725,
+          308.13,
+          308.53499999999997,
+          308.94,
+          309.345,
+          309.75,
+          310.155,
+          310.56,
+          310.96500000000003,
+          311.37,
+          311.775,
+          312.18,
+          312.58500000000004,
+          312.99,
+          313.395,
+          313.8
+        ]
+      },
+      "Rot_Speed": {
+        "counts": [
+          41,
+          561,
+          1971,
+          2679,
+          1997,
+          1230,
+          661,
+          326,
+          210,
+          126,
+          54,
+          48,
+          29,
+          16,
+          14,
+          7,
+          7,
+          15,
+          3,
+          5
+        ],
+        "edges": [
+          1168.0,
+          1253.9,
+          1339.8,
+          1425.7,
+          1511.6,
+          1597.5,
+          1683.4,
+          1769.3000000000002,
+          1855.2,
+          1941.1,
+          2027.0,
+          2112.9,
+          2198.8,
+          2284.7,
+          2370.6000000000004,
+          2456.5,
+          2542.4,
+          2628.3,
+          2714.2,
+          2800.1000000000004,
+          2886.0
+        ]
+      },
+      "Torque": {
+        "counts": [
+          5,
+          8,
+          42,
+          95,
+          222,
+          392,
+          650,
+          1016,
+          1198,
+          1399,
+          1421,
+          1276,
+          998,
+          626,
+          325,
+          196,
+          76,
+          36,
+          14,
+          5
+        ],
+        "edges": [
+          3.8,
+          7.4399999999999995,
+          11.079999999999998,
+          14.719999999999999,
+          18.36,
+          22.0,
+          25.639999999999997,
+          29.279999999999998,
+          32.919999999999995,
+          36.559999999999995,
+          40.199999999999996,
+          43.839999999999996,
+          47.47999999999999,
+          51.11999999999999,
+          54.75999999999999,
+          58.39999999999999,
+          62.03999999999999,
+          65.67999999999999,
+          69.32,
+          72.96,
+          76.6
+        ]
+      },
+      "Tool_Wear": {
+        "counts": [
+          637,
+          619,
+          550,
+          590,
+          592,
+          548,
+          587,
+          592,
+          548,
+          598,
+          590,
+          549,
+          589,
+          602,
+          538,
+          599,
+          457,
+          156,
+          48,
+          11
+        ],
+        "edges": [
+          0.0,
+          12.65,
+          25.3,
+          37.95,
+          50.6,
+          63.25,
+          75.9,
+          88.55,
+          101.2,
+          113.85000000000001,
+          126.5,
+          139.15,
+          151.8,
+          164.45000000000002,
+          177.1,
+          189.75,
+          202.4,
+          215.05,
+          227.70000000000002,
+          240.35,
+          253.0
+        ]
+      }
+    },
+    "correlations": {
+      "Air_Temp": {
+        "Air_Temp": 1.0,
+        "Process_Temp": 0.8761071581166637,
+        "Rot_Speed": 0.022670458795535774,
+        "Torque": -0.013777823050932982,
+        "Tool_Wear": 0.013852827663160141,
+        "Temp_Diff": -0.6995832996095934,
+        "Power": -0.011473944192318616,
+        "Wear_Strain": 0.006981071853532748,
+        "Machine_Failure": 0.08255568978322685
+      },
+      "Process_Temp": {
+        "Air_Temp": 0.8761071581166637,
+        "Process_Temp": 1.0,
+        "Rot_Speed": 0.019276713901797683,
+        "Torque": -0.01406061311689268,
+        "Tool_Wear": 0.013487517120005912,
+        "Temp_Diff": -0.2684131373022985,
+        "Power": -0.010951783069596082,
+        "Wear_Strain": 0.006003267991639006,
+        "Machine_Failure": 0.03594597332975212
+      },
+      "Rot_Speed": {
+        "Air_Temp": 0.022670458795535774,
+        "Process_Temp": 0.019276713901797683,
+        "Rot_Speed": 1.0,
+        "Torque": -0.8750270862996037,
+        "Tool_Wear": 0.00022308484018726584,
+        "Temp_Diff": -0.016726965833333003,
+        "Power": -0.8055837074013521,
+        "Wear_Strain": -0.3312774549518562,
+        "Machine_Failure": -0.044187559734375326
+      },
+      "Torque": {
+        "Air_Temp": -0.013777823050932982,
+        "Process_Temp": -0.01406061311689268,
+        "Rot_Speed": -0.8750270862996037,
+        "Torque": 1.0,
+        "Tool_Wear": -0.003092781440768214,
+        "Temp_Diff": 0.006689680107745286,
+        "Power": 0.9788282708982211,
+        "Wear_Strain": 0.3770376871446869,
+        "Machine_Failure": 0.1913207750594941
+      },
+      "Tool_Wear": {
+        "Air_Temp": 0.013852827663160141,
+        "Process_Temp": 0.013487517120005912,
+        "Rot_Speed": 0.00022308484018726584,
+        "Torque": -0.003092781440768214,
+        "Tool_Wear": 1.0,
+        "Temp_Diff": -0.007688937875154033,
+        "Power": -0.0031933205768293516,
+        "Wear_Strain": 0.8975201670545327,
+        "Machine_Failure": 0.1054482189195948
+      },
+      "Temp_Diff": {
+        "Air_Temp": -0.6995832996095934,
+        "Process_Temp": -0.2684131373022985,
+        "Rot_Speed": -0.016726965833333003,
+        "Torque": 0.006689680107745286,
+        "Tool_Wear": -0.007688937875154033,
+        "Temp_Diff": 1.0,
+        "Power": 0.006693999214865026,
+        "Wear_Strain": -0.005051170410344815,
+        "Machine_Failure": -0.11167631166572639
+      },
+      "Power": {
+        "Air_Temp": -0.011473944192318616,
+        "Process_Temp": -0.010951783069596082,
+        "Rot_Speed": -0.8055837074013521,
+        "Torque": 0.9788282708982211,
+        "Tool_Wear": -0.0031933205768293516,
+        "Temp_Diff": 0.006693999214865026,
+        "Power": 1.0,
+        "Wear_Strain": 0.3688417157764323,
+        "Machine_Failure": 0.17603907812460773
+      },
+      "Wear_Strain": {
+        "Air_Temp": 0.006981071853532748,
+        "Process_Temp": 0.006003267991639006,
+        "Rot_Speed": -0.3312774549518562,
+        "Torque": 0.3770376871446869,
+        "Tool_Wear": 0.8975201670545327,
+        "Temp_Diff": -0.005051170410344815,
+        "Power": 0.3688417157764323,
+        "Wear_Strain": 1.0,
+        "Machine_Failure": 0.1904268334129701
+      },
+      "Machine_Failure": {
+        "Air_Temp": 0.08255568978322685,
+        "Process_Temp": 0.03594597332975212,
+        "Rot_Speed": -0.044187559734375326,
+        "Torque": 0.1913207750594941,
+        "Tool_Wear": 0.1054482189195948,
+        "Temp_Diff": -0.11167631166572639,
+        "Power": 0.17603907812460773,
+        "Wear_Strain": 0.1904268334129701,
+        "Machine_Failure": 1.0
+      }
+    },
+    "box_plots": {
+      "Air_Temp": {
+        "0": {
+          "min": 295.3,
+          "q1": 298.3,
+          "median": 300.0,
+          "q3": 301.5,
+          "max": 304.5
+        },
+        "1": {
+          "min": 295.6,
+          "q1": 299.1,
+          "median": 301.6,
+          "q3": 302.5,
+          "max": 304.4
+        }
+      },
+      "Process_Temp": {
+        "0": {
+          "min": 305.7,
+          "q1": 308.8,
+          "median": 310.0,
+          "q3": 311.1,
+          "max": 313.8
+        },
+        "1": {
+          "min": 306.1,
+          "q1": 309.5,
+          "median": 310.4,
+          "q3": 311.2,
+          "max": 313.7
+        }
+      },
+      "Rot_Speed": {
+        "0": {
+          "min": 1168.0,
+          "q1": 1429.0,
+          "median": 1507.0,
+          "q3": 1615.0,
+          "max": 2695.0
+        },
+        "1": {
+          "min": 1181.0,
+          "q1": 1326.5,
+          "median": 1365.0,
+          "q3": 1421.5,
+          "max": 2886.0
+        }
+      },
+      "Torque": {
+        "0": {
+          "min": 12.6,
+          "q1": 33.1,
+          "median": 39.9,
+          "q3": 46.3,
+          "max": 70.0
+        },
+        "1": {
+          "min": 3.8,
+          "q1": 45.95,
+          "median": 53.7,
+          "q3": 61.2,
+          "max": 76.6
+        }
+      },
+      "Tool_Wear": {
+        "0": {
+          "min": 0.0,
+          "q1": 52.0,
+          "median": 107.0,
+          "q3": 160.0,
+          "max": 246.0
+        },
+        "1": {
+          "min": 0.0,
+          "q1": 84.5,
+          "median": 165.0,
+          "q3": 207.5,
+          "max": 253.0
+        }
+      },
+      "Power": {
+        "0": {
+          "min": 3515.033772322012,
+          "q1": 5549.30926330101,
+          "median": 6243.0462250422215,
+          "q3": 6952.051327079877,
+          "max": 8998.024014705741
+        },
+        "1": {
+          "min": 1148.4406104462846,
+          "q1": 6669.056660844508,
+          "median": 7611.429737166326,
+          "q3": 8548.854805058741,
+          "max": 10469.923004765633
+        }
+      },
+      "Wear_Strain": {
+        "0": {
+          "min": 0.0,
+          "q1": 1943.4,
+          "median": 3952.7999999999997,
+          "q3": 6175.200000000001,
+          "max": 11919.800000000001
+        },
+        "1": {
+          "min": 0.0,
+          "q1": 3508.05,
+          "median": 7681.799999999999,
+          "q3": 11146.8,
+          "max": 16497.0
+        }
+      }
+    },
+    "scatter_data": [
+      {
+        "Rot_Speed": 1538,
+        "Torque": 36.1,
+        "Air_Temp": 300.8,
+        "Process_Temp": 310.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1421,
+        "Torque": 44.8,
+        "Air_Temp": 303.6,
+        "Process_Temp": 311.8,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1485,
+        "Torque": 42.0,
+        "Air_Temp": 298.3,
+        "Process_Temp": 307.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1592,
+        "Torque": 33.7,
+        "Air_Temp": 303.3,
+        "Process_Temp": 311.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1865,
+        "Torque": 23.9,
+        "Air_Temp": 302.4,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1397,
+        "Torque": 45.9,
+        "Air_Temp": 300.5,
+        "Process_Temp": 309.9,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1440,
+        "Torque": 51.1,
+        "Air_Temp": 297.7,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1335,
+        "Torque": 51.1,
+        "Air_Temp": 303.7,
+        "Process_Temp": 312.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1618,
+        "Torque": 36.2,
+        "Air_Temp": 300.0,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1535,
+        "Torque": 34.6,
+        "Air_Temp": 297.4,
+        "Process_Temp": 308.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1456,
+        "Torque": 40.6,
+        "Air_Temp": 299.7,
+        "Process_Temp": 309.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1707,
+        "Torque": 33.6,
+        "Air_Temp": 300.3,
+        "Process_Temp": 311.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1396,
+        "Torque": 38.2,
+        "Air_Temp": 303.6,
+        "Process_Temp": 313.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1495,
+        "Torque": 36.8,
+        "Air_Temp": 302.4,
+        "Process_Temp": 311.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1420,
+        "Torque": 45.9,
+        "Air_Temp": 302.0,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1471,
+        "Torque": 37.9,
+        "Air_Temp": 300.6,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1341,
+        "Torque": 49.2,
+        "Air_Temp": 297.8,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1452,
+        "Torque": 45.5,
+        "Air_Temp": 298.3,
+        "Process_Temp": 308.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1556,
+        "Torque": 37.7,
+        "Air_Temp": 300.6,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1400,
+        "Torque": 40.8,
+        "Air_Temp": 299.6,
+        "Process_Temp": 310.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1618,
+        "Torque": 35.1,
+        "Air_Temp": 298.8,
+        "Process_Temp": 309.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1442,
+        "Torque": 46.5,
+        "Air_Temp": 299.2,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1435,
+        "Torque": 40.1,
+        "Air_Temp": 303.1,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1589,
+        "Torque": 34.2,
+        "Air_Temp": 298.9,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1395,
+        "Torque": 53.9,
+        "Air_Temp": 303.7,
+        "Process_Temp": 312.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1450,
+        "Torque": 43.9,
+        "Air_Temp": 298.5,
+        "Process_Temp": 308.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1379,
+        "Torque": 43.3,
+        "Air_Temp": 297.7,
+        "Process_Temp": 307.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1369,
+        "Torque": 54.5,
+        "Air_Temp": 299.1,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1763,
+        "Torque": 25.9,
+        "Air_Temp": 301.7,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1443,
+        "Torque": 43.5,
+        "Air_Temp": 297.5,
+        "Process_Temp": 308.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1518,
+        "Torque": 32.5,
+        "Air_Temp": 297.8,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1447,
+        "Torque": 43.1,
+        "Air_Temp": 299.8,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1511,
+        "Torque": 45.7,
+        "Air_Temp": 303.0,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1555,
+        "Torque": 33.4,
+        "Air_Temp": 303.8,
+        "Process_Temp": 312.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1325,
+        "Torque": 52.2,
+        "Air_Temp": 298.6,
+        "Process_Temp": 309.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1564,
+        "Torque": 34.1,
+        "Air_Temp": 301.6,
+        "Process_Temp": 310.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1298,
+        "Torque": 57.5,
+        "Air_Temp": 302.5,
+        "Process_Temp": 311.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1466,
+        "Torque": 42.6,
+        "Air_Temp": 298.0,
+        "Process_Temp": 308.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1535,
+        "Torque": 41.8,
+        "Air_Temp": 302.3,
+        "Process_Temp": 311.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1414,
+        "Torque": 49.3,
+        "Air_Temp": 301.6,
+        "Process_Temp": 310.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1540,
+        "Torque": 28.9,
+        "Air_Temp": 302.3,
+        "Process_Temp": 311.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1452,
+        "Torque": 48.6,
+        "Air_Temp": 298.8,
+        "Process_Temp": 309.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1353,
+        "Torque": 62.5,
+        "Air_Temp": 298.6,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1568,
+        "Torque": 32.9,
+        "Air_Temp": 298.1,
+        "Process_Temp": 308.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1480,
+        "Torque": 38.1,
+        "Air_Temp": 298.5,
+        "Process_Temp": 309.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1350,
+        "Torque": 52.5,
+        "Air_Temp": 298.8,
+        "Process_Temp": 309.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1696,
+        "Torque": 30.7,
+        "Air_Temp": 303.6,
+        "Process_Temp": 312.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1383,
+        "Torque": 45.7,
+        "Air_Temp": 301.8,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1684,
+        "Torque": 33.1,
+        "Air_Temp": 298.1,
+        "Process_Temp": 307.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1455,
+        "Torque": 39.8,
+        "Air_Temp": 299.1,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1758,
+        "Torque": 24.4,
+        "Air_Temp": 302.3,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1651,
+        "Torque": 33.3,
+        "Air_Temp": 298.8,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1819,
+        "Torque": 23.7,
+        "Air_Temp": 303.8,
+        "Process_Temp": 312.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1650,
+        "Torque": 33.8,
+        "Air_Temp": 300.1,
+        "Process_Temp": 311.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1447,
+        "Torque": 42.9,
+        "Air_Temp": 300.6,
+        "Process_Temp": 309.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1681,
+        "Torque": 31.3,
+        "Air_Temp": 300.8,
+        "Process_Temp": 311.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1665,
+        "Torque": 31.4,
+        "Air_Temp": 300.3,
+        "Process_Temp": 309.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1431,
+        "Torque": 49.5,
+        "Air_Temp": 299.1,
+        "Process_Temp": 310.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1541,
+        "Torque": 36.3,
+        "Air_Temp": 299.2,
+        "Process_Temp": 309.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1539,
+        "Torque": 45.4,
+        "Air_Temp": 298.9,
+        "Process_Temp": 308.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1339,
+        "Torque": 52.1,
+        "Air_Temp": 297.3,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1602,
+        "Torque": 35.9,
+        "Air_Temp": 301.0,
+        "Process_Temp": 312.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1479,
+        "Torque": 43.3,
+        "Air_Temp": 300.9,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1497,
+        "Torque": 46.8,
+        "Air_Temp": 298.8,
+        "Process_Temp": 308.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1520,
+        "Torque": 45.0,
+        "Air_Temp": 299.0,
+        "Process_Temp": 310.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1448,
+        "Torque": 46.3,
+        "Air_Temp": 299.6,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1715,
+        "Torque": 27.8,
+        "Air_Temp": 299.7,
+        "Process_Temp": 309.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1593,
+        "Torque": 35.1,
+        "Air_Temp": 298.5,
+        "Process_Temp": 309.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1495,
+        "Torque": 40.8,
+        "Air_Temp": 301.3,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1578,
+        "Torque": 30.5,
+        "Air_Temp": 300.5,
+        "Process_Temp": 309.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1399,
+        "Torque": 48.4,
+        "Air_Temp": 303.4,
+        "Process_Temp": 312.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1579,
+        "Torque": 34.1,
+        "Air_Temp": 297.0,
+        "Process_Temp": 307.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1441,
+        "Torque": 46.3,
+        "Air_Temp": 301.8,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1733,
+        "Torque": 24.8,
+        "Air_Temp": 300.7,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1421,
+        "Torque": 49.8,
+        "Air_Temp": 300.7,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1352,
+        "Torque": 52.1,
+        "Air_Temp": 299.7,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1557,
+        "Torque": 41.1,
+        "Air_Temp": 295.9,
+        "Process_Temp": 306.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1700,
+        "Torque": 28.7,
+        "Air_Temp": 301.7,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1648,
+        "Torque": 29.1,
+        "Air_Temp": 297.6,
+        "Process_Temp": 308.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1560,
+        "Torque": 33.3,
+        "Air_Temp": 298.7,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1521,
+        "Torque": 38.2,
+        "Air_Temp": 297.3,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1448,
+        "Torque": 48.9,
+        "Air_Temp": 295.5,
+        "Process_Temp": 306.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1397,
+        "Torque": 47.1,
+        "Air_Temp": 303.3,
+        "Process_Temp": 312.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1506,
+        "Torque": 40.8,
+        "Air_Temp": 302.4,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1554,
+        "Torque": 47.7,
+        "Air_Temp": 301.3,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1415,
+        "Torque": 43.5,
+        "Air_Temp": 300.5,
+        "Process_Temp": 310.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1577,
+        "Torque": 48.3,
+        "Air_Temp": 301.3,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1488,
+        "Torque": 35.7,
+        "Air_Temp": 300.4,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1500,
+        "Torque": 39.9,
+        "Air_Temp": 297.0,
+        "Process_Temp": 307.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1548,
+        "Torque": 32.2,
+        "Air_Temp": 300.3,
+        "Process_Temp": 311.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1647,
+        "Torque": 27.5,
+        "Air_Temp": 299.9,
+        "Process_Temp": 311.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1432,
+        "Torque": 45.8,
+        "Air_Temp": 300.8,
+        "Process_Temp": 311.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1456,
+        "Torque": 41.2,
+        "Air_Temp": 298.2,
+        "Process_Temp": 308.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1565,
+        "Torque": 39.5,
+        "Air_Temp": 296.8,
+        "Process_Temp": 307.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1534,
+        "Torque": 42.5,
+        "Air_Temp": 300.4,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1377,
+        "Torque": 47.3,
+        "Air_Temp": 302.3,
+        "Process_Temp": 310.8,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1595,
+        "Torque": 32.0,
+        "Air_Temp": 297.9,
+        "Process_Temp": 309.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1579,
+        "Torque": 35.5,
+        "Air_Temp": 299.9,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1487,
+        "Torque": 36.9,
+        "Air_Temp": 300.2,
+        "Process_Temp": 311.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1553,
+        "Torque": 36.6,
+        "Air_Temp": 299.8,
+        "Process_Temp": 309.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1337,
+        "Torque": 56.5,
+        "Air_Temp": 296.8,
+        "Process_Temp": 307.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1466,
+        "Torque": 39.5,
+        "Air_Temp": 304.0,
+        "Process_Temp": 313.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 2232,
+        "Torque": 16.8,
+        "Air_Temp": 303.6,
+        "Process_Temp": 312.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1511,
+        "Torque": 35.7,
+        "Air_Temp": 300.2,
+        "Process_Temp": 311.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1509,
+        "Torque": 42.5,
+        "Air_Temp": 301.3,
+        "Process_Temp": 311.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1476,
+        "Torque": 47.8,
+        "Air_Temp": 299.5,
+        "Process_Temp": 309.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1517,
+        "Torque": 44.4,
+        "Air_Temp": 297.9,
+        "Process_Temp": 307.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1447,
+        "Torque": 36.8,
+        "Air_Temp": 300.3,
+        "Process_Temp": 311.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1462,
+        "Torque": 42.8,
+        "Air_Temp": 297.4,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1479,
+        "Torque": 40.7,
+        "Air_Temp": 299.1,
+        "Process_Temp": 308.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1532,
+        "Torque": 38.8,
+        "Air_Temp": 302.5,
+        "Process_Temp": 311.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1418,
+        "Torque": 38.0,
+        "Air_Temp": 301.7,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1519,
+        "Torque": 39.3,
+        "Air_Temp": 302.1,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1386,
+        "Torque": 62.3,
+        "Air_Temp": 296.6,
+        "Process_Temp": 307.7,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1578,
+        "Torque": 35.6,
+        "Air_Temp": 297.1,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1505,
+        "Torque": 41.2,
+        "Air_Temp": 301.8,
+        "Process_Temp": 310.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1608,
+        "Torque": 35.1,
+        "Air_Temp": 300.4,
+        "Process_Temp": 311.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1332,
+        "Torque": 53.9,
+        "Air_Temp": 296.9,
+        "Process_Temp": 308.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1755,
+        "Torque": 26.4,
+        "Air_Temp": 299.2,
+        "Process_Temp": 308.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1331,
+        "Torque": 68.6,
+        "Air_Temp": 301.9,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1651,
+        "Torque": 28.1,
+        "Air_Temp": 300.0,
+        "Process_Temp": 309.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1370,
+        "Torque": 50.3,
+        "Air_Temp": 301.9,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1480,
+        "Torque": 40.9,
+        "Air_Temp": 300.9,
+        "Process_Temp": 311.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1520,
+        "Torque": 37.6,
+        "Air_Temp": 300.4,
+        "Process_Temp": 310.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1285,
+        "Torque": 62.6,
+        "Air_Temp": 301.4,
+        "Process_Temp": 310.8,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1514,
+        "Torque": 34.7,
+        "Air_Temp": 303.3,
+        "Process_Temp": 311.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1605,
+        "Torque": 34.2,
+        "Air_Temp": 301.4,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1336,
+        "Torque": 58.2,
+        "Air_Temp": 302.0,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1429,
+        "Torque": 50.5,
+        "Air_Temp": 297.5,
+        "Process_Temp": 308.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1763,
+        "Torque": 25.7,
+        "Air_Temp": 297.1,
+        "Process_Temp": 308.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1614,
+        "Torque": 31.6,
+        "Air_Temp": 301.0,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1473,
+        "Torque": 46.0,
+        "Air_Temp": 300.0,
+        "Process_Temp": 309.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1564,
+        "Torque": 37.5,
+        "Air_Temp": 297.5,
+        "Process_Temp": 309.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1492,
+        "Torque": 40.8,
+        "Air_Temp": 301.9,
+        "Process_Temp": 311.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1835,
+        "Torque": 23.7,
+        "Air_Temp": 299.7,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1515,
+        "Torque": 43.8,
+        "Air_Temp": 298.1,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1575,
+        "Torque": 35.3,
+        "Air_Temp": 299.0,
+        "Process_Temp": 309.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1425,
+        "Torque": 45.1,
+        "Air_Temp": 301.4,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1503,
+        "Torque": 36.3,
+        "Air_Temp": 298.0,
+        "Process_Temp": 308.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1412,
+        "Torque": 45.5,
+        "Air_Temp": 297.4,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1467,
+        "Torque": 40.7,
+        "Air_Temp": 298.7,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1418,
+        "Torque": 47.7,
+        "Air_Temp": 300.1,
+        "Process_Temp": 311.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1540,
+        "Torque": 36.6,
+        "Air_Temp": 301.1,
+        "Process_Temp": 310.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1665,
+        "Torque": 32.5,
+        "Air_Temp": 298.9,
+        "Process_Temp": 309.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1590,
+        "Torque": 37.9,
+        "Air_Temp": 300.7,
+        "Process_Temp": 312.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1359,
+        "Torque": 53.4,
+        "Air_Temp": 301.0,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1566,
+        "Torque": 36.6,
+        "Air_Temp": 302.6,
+        "Process_Temp": 312.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1394,
+        "Torque": 47.7,
+        "Air_Temp": 296.8,
+        "Process_Temp": 307.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1717,
+        "Torque": 27.3,
+        "Air_Temp": 298.7,
+        "Process_Temp": 310.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1763,
+        "Torque": 27.3,
+        "Air_Temp": 303.3,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1570,
+        "Torque": 38.3,
+        "Air_Temp": 300.6,
+        "Process_Temp": 310.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1433,
+        "Torque": 42.6,
+        "Air_Temp": 300.6,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1421,
+        "Torque": 52.0,
+        "Air_Temp": 302.1,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1482,
+        "Torque": 42.1,
+        "Air_Temp": 298.5,
+        "Process_Temp": 309.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1504,
+        "Torque": 44.8,
+        "Air_Temp": 303.5,
+        "Process_Temp": 312.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1352,
+        "Torque": 63.5,
+        "Air_Temp": 301.0,
+        "Process_Temp": 311.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1422,
+        "Torque": 48.0,
+        "Air_Temp": 303.9,
+        "Process_Temp": 313.2,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1798,
+        "Torque": 25.5,
+        "Air_Temp": 299.0,
+        "Process_Temp": 309.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1393,
+        "Torque": 42.5,
+        "Air_Temp": 302.2,
+        "Process_Temp": 311.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1719,
+        "Torque": 31.9,
+        "Air_Temp": 301.9,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1693,
+        "Torque": 30.1,
+        "Air_Temp": 299.0,
+        "Process_Temp": 309.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1555,
+        "Torque": 40.6,
+        "Air_Temp": 302.4,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1750,
+        "Torque": 28.3,
+        "Air_Temp": 300.5,
+        "Process_Temp": 311.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1557,
+        "Torque": 32.4,
+        "Air_Temp": 296.9,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1553,
+        "Torque": 36.8,
+        "Air_Temp": 299.7,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1445,
+        "Torque": 48.5,
+        "Air_Temp": 298.8,
+        "Process_Temp": 308.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1629,
+        "Torque": 32.6,
+        "Air_Temp": 299.3,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1546,
+        "Torque": 38.0,
+        "Air_Temp": 297.5,
+        "Process_Temp": 308.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1720,
+        "Torque": 27.9,
+        "Air_Temp": 300.9,
+        "Process_Temp": 312.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1672,
+        "Torque": 30.5,
+        "Air_Temp": 299.5,
+        "Process_Temp": 308.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1485,
+        "Torque": 36.0,
+        "Air_Temp": 296.1,
+        "Process_Temp": 307.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1702,
+        "Torque": 26.7,
+        "Air_Temp": 298.0,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1520,
+        "Torque": 45.9,
+        "Air_Temp": 300.7,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1646,
+        "Torque": 30.7,
+        "Air_Temp": 301.1,
+        "Process_Temp": 310.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1521,
+        "Torque": 38.2,
+        "Air_Temp": 297.5,
+        "Process_Temp": 308.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1737,
+        "Torque": 27.5,
+        "Air_Temp": 297.8,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1346,
+        "Torque": 53.2,
+        "Air_Temp": 299.8,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1496,
+        "Torque": 44.7,
+        "Air_Temp": 297.1,
+        "Process_Temp": 307.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1900,
+        "Torque": 24.4,
+        "Air_Temp": 302.4,
+        "Process_Temp": 310.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1458,
+        "Torque": 43.4,
+        "Air_Temp": 300.8,
+        "Process_Temp": 310.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1484,
+        "Torque": 44.9,
+        "Air_Temp": 298.8,
+        "Process_Temp": 310.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1578,
+        "Torque": 42.1,
+        "Air_Temp": 299.8,
+        "Process_Temp": 309.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1456,
+        "Torque": 45.4,
+        "Air_Temp": 302.3,
+        "Process_Temp": 311.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1423,
+        "Torque": 36.8,
+        "Air_Temp": 302.1,
+        "Process_Temp": 311.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1698,
+        "Torque": 30.0,
+        "Air_Temp": 303.0,
+        "Process_Temp": 312.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1455,
+        "Torque": 48.0,
+        "Air_Temp": 300.6,
+        "Process_Temp": 311.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1408,
+        "Torque": 45.3,
+        "Air_Temp": 298.3,
+        "Process_Temp": 310.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1361,
+        "Torque": 53.8,
+        "Air_Temp": 299.8,
+        "Process_Temp": 310.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1467,
+        "Torque": 47.2,
+        "Air_Temp": 299.1,
+        "Process_Temp": 308.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1439,
+        "Torque": 46.4,
+        "Air_Temp": 297.4,
+        "Process_Temp": 308.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1462,
+        "Torque": 45.1,
+        "Air_Temp": 298.5,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1528,
+        "Torque": 37.0,
+        "Air_Temp": 300.5,
+        "Process_Temp": 309.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1610,
+        "Torque": 39.2,
+        "Air_Temp": 302.6,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1251,
+        "Torque": 59.9,
+        "Air_Temp": 300.7,
+        "Process_Temp": 309.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1432,
+        "Torque": 43.6,
+        "Air_Temp": 300.2,
+        "Process_Temp": 311.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1539,
+        "Torque": 39.0,
+        "Air_Temp": 302.5,
+        "Process_Temp": 310.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1885,
+        "Torque": 25.2,
+        "Air_Temp": 297.6,
+        "Process_Temp": 309.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1367,
+        "Torque": 51.2,
+        "Air_Temp": 300.4,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1568,
+        "Torque": 35.1,
+        "Air_Temp": 295.8,
+        "Process_Temp": 306.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1475,
+        "Torque": 40.4,
+        "Air_Temp": 302.4,
+        "Process_Temp": 311.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1428,
+        "Torque": 53.3,
+        "Air_Temp": 303.8,
+        "Process_Temp": 312.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1325,
+        "Torque": 62.4,
+        "Air_Temp": 297.4,
+        "Process_Temp": 308.8,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1420,
+        "Torque": 63.9,
+        "Air_Temp": 298.1,
+        "Process_Temp": 308.2,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1412,
+        "Torque": 48.9,
+        "Air_Temp": 302.3,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1548,
+        "Torque": 36.9,
+        "Air_Temp": 297.8,
+        "Process_Temp": 308.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1463,
+        "Torque": 35.0,
+        "Air_Temp": 297.4,
+        "Process_Temp": 309.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1858,
+        "Torque": 26.3,
+        "Air_Temp": 300.8,
+        "Process_Temp": 312.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1924,
+        "Torque": 20.6,
+        "Air_Temp": 297.6,
+        "Process_Temp": 309.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1510,
+        "Torque": 40.6,
+        "Air_Temp": 298.7,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1453,
+        "Torque": 44.1,
+        "Air_Temp": 298.0,
+        "Process_Temp": 308.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1425,
+        "Torque": 45.3,
+        "Air_Temp": 300.7,
+        "Process_Temp": 309.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1478,
+        "Torque": 41.9,
+        "Air_Temp": 300.7,
+        "Process_Temp": 311.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1530,
+        "Torque": 36.6,
+        "Air_Temp": 300.1,
+        "Process_Temp": 311.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1466,
+        "Torque": 44.6,
+        "Air_Temp": 298.8,
+        "Process_Temp": 309.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1901,
+        "Torque": 22.5,
+        "Air_Temp": 303.9,
+        "Process_Temp": 313.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1360,
+        "Torque": 48.0,
+        "Air_Temp": 300.3,
+        "Process_Temp": 311.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1600,
+        "Torque": 36.0,
+        "Air_Temp": 300.9,
+        "Process_Temp": 310.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 2219,
+        "Torque": 16.7,
+        "Air_Temp": 301.1,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1464,
+        "Torque": 41.0,
+        "Air_Temp": 300.3,
+        "Process_Temp": 311.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1508,
+        "Torque": 41.2,
+        "Air_Temp": 299.7,
+        "Process_Temp": 309.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1471,
+        "Torque": 47.2,
+        "Air_Temp": 300.1,
+        "Process_Temp": 311.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1417,
+        "Torque": 47.6,
+        "Air_Temp": 301.1,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1446,
+        "Torque": 47.3,
+        "Air_Temp": 299.4,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1513,
+        "Torque": 42.9,
+        "Air_Temp": 297.2,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1501,
+        "Torque": 50.0,
+        "Air_Temp": 298.4,
+        "Process_Temp": 308.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1423,
+        "Torque": 46.2,
+        "Air_Temp": 302.4,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1443,
+        "Torque": 53.3,
+        "Air_Temp": 300.8,
+        "Process_Temp": 312.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1349,
+        "Torque": 52.7,
+        "Air_Temp": 299.5,
+        "Process_Temp": 310.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1412,
+        "Torque": 44.1,
+        "Air_Temp": 301.5,
+        "Process_Temp": 310.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1651,
+        "Torque": 27.0,
+        "Air_Temp": 302.8,
+        "Process_Temp": 312.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1399,
+        "Torque": 47.6,
+        "Air_Temp": 295.8,
+        "Process_Temp": 306.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1495,
+        "Torque": 37.8,
+        "Air_Temp": 297.4,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1483,
+        "Torque": 40.5,
+        "Air_Temp": 302.3,
+        "Process_Temp": 311.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1785,
+        "Torque": 25.5,
+        "Air_Temp": 301.5,
+        "Process_Temp": 310.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1446,
+        "Torque": 43.2,
+        "Air_Temp": 301.9,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1517,
+        "Torque": 36.0,
+        "Air_Temp": 303.9,
+        "Process_Temp": 313.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1350,
+        "Torque": 55.6,
+        "Air_Temp": 296.5,
+        "Process_Temp": 307.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1322,
+        "Torque": 53.9,
+        "Air_Temp": 299.9,
+        "Process_Temp": 309.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1571,
+        "Torque": 33.6,
+        "Air_Temp": 300.4,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1349,
+        "Torque": 48.9,
+        "Air_Temp": 297.4,
+        "Process_Temp": 308.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1451,
+        "Torque": 49.0,
+        "Air_Temp": 300.0,
+        "Process_Temp": 311.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1451,
+        "Torque": 39.7,
+        "Air_Temp": 301.2,
+        "Process_Temp": 310.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1445,
+        "Torque": 49.9,
+        "Air_Temp": 298.8,
+        "Process_Temp": 308.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1403,
+        "Torque": 55.6,
+        "Air_Temp": 303.1,
+        "Process_Temp": 311.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1366,
+        "Torque": 59.0,
+        "Air_Temp": 298.8,
+        "Process_Temp": 310.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1429,
+        "Torque": 37.7,
+        "Air_Temp": 298.0,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1348,
+        "Torque": 54.8,
+        "Air_Temp": 300.7,
+        "Process_Temp": 310.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1631,
+        "Torque": 28.3,
+        "Air_Temp": 300.0,
+        "Process_Temp": 309.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1589,
+        "Torque": 30.5,
+        "Air_Temp": 300.5,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1565,
+        "Torque": 38.9,
+        "Air_Temp": 303.5,
+        "Process_Temp": 311.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1802,
+        "Torque": 24.4,
+        "Air_Temp": 299.9,
+        "Process_Temp": 311.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1727,
+        "Torque": 27.1,
+        "Air_Temp": 298.9,
+        "Process_Temp": 308.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1472,
+        "Torque": 42.0,
+        "Air_Temp": 298.0,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1494,
+        "Torque": 39.5,
+        "Air_Temp": 301.6,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1563,
+        "Torque": 34.8,
+        "Air_Temp": 302.5,
+        "Process_Temp": 310.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1351,
+        "Torque": 62.0,
+        "Air_Temp": 300.4,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1295,
+        "Torque": 57.1,
+        "Air_Temp": 302.3,
+        "Process_Temp": 311.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1485,
+        "Torque": 42.4,
+        "Air_Temp": 298.8,
+        "Process_Temp": 309.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1686,
+        "Torque": 28.9,
+        "Air_Temp": 301.7,
+        "Process_Temp": 310.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1490,
+        "Torque": 48.1,
+        "Air_Temp": 301.5,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1510,
+        "Torque": 37.3,
+        "Air_Temp": 303.3,
+        "Process_Temp": 311.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1368,
+        "Torque": 47.4,
+        "Air_Temp": 299.8,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1439,
+        "Torque": 38.5,
+        "Air_Temp": 298.0,
+        "Process_Temp": 309.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1388,
+        "Torque": 53.2,
+        "Air_Temp": 299.2,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1690,
+        "Torque": 25.6,
+        "Air_Temp": 297.1,
+        "Process_Temp": 308.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1845,
+        "Torque": 21.9,
+        "Air_Temp": 302.3,
+        "Process_Temp": 311.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1631,
+        "Torque": 34.9,
+        "Air_Temp": 300.4,
+        "Process_Temp": 312.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1602,
+        "Torque": 34.2,
+        "Air_Temp": 303.5,
+        "Process_Temp": 312.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1517,
+        "Torque": 37.6,
+        "Air_Temp": 302.3,
+        "Process_Temp": 311.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 2216,
+        "Torque": 16.8,
+        "Air_Temp": 298.2,
+        "Process_Temp": 308.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1472,
+        "Torque": 39.7,
+        "Air_Temp": 301.9,
+        "Process_Temp": 310.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1545,
+        "Torque": 34.3,
+        "Air_Temp": 297.3,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1605,
+        "Torque": 29.4,
+        "Air_Temp": 298.2,
+        "Process_Temp": 308.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1730,
+        "Torque": 30.2,
+        "Air_Temp": 298.6,
+        "Process_Temp": 309.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1547,
+        "Torque": 32.6,
+        "Air_Temp": 296.9,
+        "Process_Temp": 307.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1567,
+        "Torque": 35.1,
+        "Air_Temp": 301.2,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1312,
+        "Torque": 51.4,
+        "Air_Temp": 300.5,
+        "Process_Temp": 311.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1544,
+        "Torque": 34.7,
+        "Air_Temp": 298.0,
+        "Process_Temp": 308.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1495,
+        "Torque": 41.0,
+        "Air_Temp": 300.1,
+        "Process_Temp": 311.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1518,
+        "Torque": 38.7,
+        "Air_Temp": 303.4,
+        "Process_Temp": 312.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1496,
+        "Torque": 31.8,
+        "Air_Temp": 300.4,
+        "Process_Temp": 309.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1419,
+        "Torque": 45.2,
+        "Air_Temp": 299.0,
+        "Process_Temp": 309.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1766,
+        "Torque": 25.8,
+        "Air_Temp": 297.2,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1389,
+        "Torque": 49.6,
+        "Air_Temp": 298.8,
+        "Process_Temp": 310.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1446,
+        "Torque": 45.8,
+        "Air_Temp": 298.2,
+        "Process_Temp": 309.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1385,
+        "Torque": 50.7,
+        "Air_Temp": 301.6,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1291,
+        "Torque": 63.6,
+        "Air_Temp": 301.9,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 2549,
+        "Torque": 13.0,
+        "Air_Temp": 299.5,
+        "Process_Temp": 308.7,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1509,
+        "Torque": 46.6,
+        "Air_Temp": 300.3,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1563,
+        "Torque": 39.0,
+        "Air_Temp": 302.6,
+        "Process_Temp": 310.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1616,
+        "Torque": 34.0,
+        "Air_Temp": 302.2,
+        "Process_Temp": 311.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1492,
+        "Torque": 52.3,
+        "Air_Temp": 300.3,
+        "Process_Temp": 310.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1449,
+        "Torque": 48.8,
+        "Air_Temp": 298.9,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1550,
+        "Torque": 33.7,
+        "Air_Temp": 299.4,
+        "Process_Temp": 308.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1811,
+        "Torque": 23.2,
+        "Air_Temp": 300.9,
+        "Process_Temp": 312.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1516,
+        "Torque": 46.0,
+        "Air_Temp": 301.3,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1604,
+        "Torque": 31.7,
+        "Air_Temp": 300.4,
+        "Process_Temp": 311.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1358,
+        "Torque": 48.1,
+        "Air_Temp": 300.8,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1377,
+        "Torque": 48.5,
+        "Air_Temp": 298.0,
+        "Process_Temp": 308.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1488,
+        "Torque": 47.7,
+        "Air_Temp": 300.6,
+        "Process_Temp": 311.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1369,
+        "Torque": 50.7,
+        "Air_Temp": 300.7,
+        "Process_Temp": 310.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1452,
+        "Torque": 48.9,
+        "Air_Temp": 298.9,
+        "Process_Temp": 310.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1343,
+        "Torque": 49.2,
+        "Air_Temp": 301.7,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1536,
+        "Torque": 44.4,
+        "Air_Temp": 301.4,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1621,
+        "Torque": 32.7,
+        "Air_Temp": 298.9,
+        "Process_Temp": 308.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1502,
+        "Torque": 47.3,
+        "Air_Temp": 302.6,
+        "Process_Temp": 312.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1595,
+        "Torque": 29.0,
+        "Air_Temp": 298.3,
+        "Process_Temp": 309.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1403,
+        "Torque": 47.4,
+        "Air_Temp": 301.5,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1464,
+        "Torque": 41.4,
+        "Air_Temp": 296.9,
+        "Process_Temp": 307.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1451,
+        "Torque": 43.2,
+        "Air_Temp": 302.5,
+        "Process_Temp": 312.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1404,
+        "Torque": 46.6,
+        "Air_Temp": 298.0,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1448,
+        "Torque": 49.8,
+        "Air_Temp": 299.7,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1671,
+        "Torque": 29.4,
+        "Air_Temp": 297.5,
+        "Process_Temp": 308.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1460,
+        "Torque": 38.6,
+        "Air_Temp": 301.5,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1926,
+        "Torque": 23.7,
+        "Air_Temp": 298.4,
+        "Process_Temp": 310.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1597,
+        "Torque": 39.2,
+        "Air_Temp": 301.0,
+        "Process_Temp": 311.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1536,
+        "Torque": 40.6,
+        "Air_Temp": 303.3,
+        "Process_Temp": 311.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1786,
+        "Torque": 26.1,
+        "Air_Temp": 301.4,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1467,
+        "Torque": 35.7,
+        "Air_Temp": 300.1,
+        "Process_Temp": 311.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1465,
+        "Torque": 39.9,
+        "Air_Temp": 301.9,
+        "Process_Temp": 311.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1487,
+        "Torque": 41.2,
+        "Air_Temp": 300.0,
+        "Process_Temp": 311.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1462,
+        "Torque": 38.8,
+        "Air_Temp": 301.9,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1427,
+        "Torque": 52.8,
+        "Air_Temp": 300.6,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1711,
+        "Torque": 30.3,
+        "Air_Temp": 298.3,
+        "Process_Temp": 309.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1743,
+        "Torque": 24.1,
+        "Air_Temp": 300.2,
+        "Process_Temp": 309.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1822,
+        "Torque": 21.6,
+        "Air_Temp": 301.0,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1286,
+        "Torque": 62.8,
+        "Air_Temp": 301.9,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1383,
+        "Torque": 49.6,
+        "Air_Temp": 300.0,
+        "Process_Temp": 311.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1591,
+        "Torque": 42.0,
+        "Air_Temp": 300.5,
+        "Process_Temp": 311.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1927,
+        "Torque": 21.9,
+        "Air_Temp": 303.5,
+        "Process_Temp": 311.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1417,
+        "Torque": 51.0,
+        "Air_Temp": 298.0,
+        "Process_Temp": 307.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1331,
+        "Torque": 61.2,
+        "Air_Temp": 301.7,
+        "Process_Temp": 310.2,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1563,
+        "Torque": 34.3,
+        "Air_Temp": 297.8,
+        "Process_Temp": 307.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1668,
+        "Torque": 35.2,
+        "Air_Temp": 298.7,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1469,
+        "Torque": 54.8,
+        "Air_Temp": 298.3,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1437,
+        "Torque": 49.9,
+        "Air_Temp": 302.9,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1614,
+        "Torque": 34.1,
+        "Air_Temp": 302.3,
+        "Process_Temp": 311.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1481,
+        "Torque": 43.1,
+        "Air_Temp": 299.5,
+        "Process_Temp": 310.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1420,
+        "Torque": 47.4,
+        "Air_Temp": 301.0,
+        "Process_Temp": 311.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1459,
+        "Torque": 48.2,
+        "Air_Temp": 303.6,
+        "Process_Temp": 312.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1481,
+        "Torque": 40.0,
+        "Air_Temp": 303.9,
+        "Process_Temp": 313.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1332,
+        "Torque": 48.0,
+        "Air_Temp": 299.1,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1301,
+        "Torque": 45.1,
+        "Air_Temp": 303.3,
+        "Process_Temp": 311.6,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1495,
+        "Torque": 43.6,
+        "Air_Temp": 300.2,
+        "Process_Temp": 311.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1650,
+        "Torque": 32.4,
+        "Air_Temp": 299.7,
+        "Process_Temp": 311.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1505,
+        "Torque": 39.7,
+        "Air_Temp": 297.8,
+        "Process_Temp": 307.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1391,
+        "Torque": 50.3,
+        "Air_Temp": 303.6,
+        "Process_Temp": 312.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1821,
+        "Torque": 26.3,
+        "Air_Temp": 300.3,
+        "Process_Temp": 311.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1524,
+        "Torque": 43.5,
+        "Air_Temp": 300.8,
+        "Process_Temp": 311.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1761,
+        "Torque": 26.5,
+        "Air_Temp": 300.5,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1420,
+        "Torque": 47.0,
+        "Air_Temp": 300.7,
+        "Process_Temp": 311.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1546,
+        "Torque": 43.4,
+        "Air_Temp": 301.8,
+        "Process_Temp": 310.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1455,
+        "Torque": 48.2,
+        "Air_Temp": 297.6,
+        "Process_Temp": 308.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1514,
+        "Torque": 43.5,
+        "Air_Temp": 298.1,
+        "Process_Temp": 307.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1486,
+        "Torque": 46.6,
+        "Air_Temp": 297.2,
+        "Process_Temp": 308.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1506,
+        "Torque": 40.0,
+        "Air_Temp": 303.3,
+        "Process_Temp": 312.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1648,
+        "Torque": 30.0,
+        "Air_Temp": 302.4,
+        "Process_Temp": 311.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1389,
+        "Torque": 46.5,
+        "Air_Temp": 302.7,
+        "Process_Temp": 311.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1456,
+        "Torque": 46.5,
+        "Air_Temp": 297.9,
+        "Process_Temp": 309.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1325,
+        "Torque": 46.9,
+        "Air_Temp": 299.1,
+        "Process_Temp": 308.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1313,
+        "Torque": 55.6,
+        "Air_Temp": 301.3,
+        "Process_Temp": 310.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1453,
+        "Torque": 49.1,
+        "Air_Temp": 303.1,
+        "Process_Temp": 312.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1366,
+        "Torque": 45.1,
+        "Air_Temp": 303.8,
+        "Process_Temp": 312.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1616,
+        "Torque": 35.1,
+        "Air_Temp": 299.7,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1534,
+        "Torque": 34.3,
+        "Air_Temp": 302.6,
+        "Process_Temp": 312.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1642,
+        "Torque": 35.1,
+        "Air_Temp": 299.6,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1619,
+        "Torque": 33.4,
+        "Air_Temp": 300.1,
+        "Process_Temp": 311.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1446,
+        "Torque": 53.5,
+        "Air_Temp": 297.3,
+        "Process_Temp": 308.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1363,
+        "Torque": 51.8,
+        "Air_Temp": 303.7,
+        "Process_Temp": 312.1,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1469,
+        "Torque": 39.9,
+        "Air_Temp": 298.7,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1516,
+        "Torque": 38.7,
+        "Air_Temp": 299.3,
+        "Process_Temp": 309.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1694,
+        "Torque": 31.3,
+        "Air_Temp": 299.8,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1507,
+        "Torque": 52.4,
+        "Air_Temp": 300.7,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1459,
+        "Torque": 40.2,
+        "Air_Temp": 296.6,
+        "Process_Temp": 307.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1576,
+        "Torque": 38.8,
+        "Air_Temp": 300.6,
+        "Process_Temp": 309.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1533,
+        "Torque": 31.8,
+        "Air_Temp": 299.6,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1410,
+        "Torque": 44.5,
+        "Air_Temp": 299.7,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1540,
+        "Torque": 37.6,
+        "Air_Temp": 301.9,
+        "Process_Temp": 310.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1605,
+        "Torque": 37.0,
+        "Air_Temp": 296.9,
+        "Process_Temp": 307.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 2057,
+        "Torque": 18.0,
+        "Air_Temp": 298.2,
+        "Process_Temp": 308.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1515,
+        "Torque": 37.3,
+        "Air_Temp": 301.0,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1368,
+        "Torque": 46.8,
+        "Air_Temp": 300.8,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1434,
+        "Torque": 45.9,
+        "Air_Temp": 299.0,
+        "Process_Temp": 308.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1639,
+        "Torque": 28.9,
+        "Air_Temp": 301.4,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1309,
+        "Torque": 57.3,
+        "Air_Temp": 297.5,
+        "Process_Temp": 308.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1378,
+        "Torque": 51.1,
+        "Air_Temp": 301.1,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1497,
+        "Torque": 36.4,
+        "Air_Temp": 297.4,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1450,
+        "Torque": 47.9,
+        "Air_Temp": 302.4,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1563,
+        "Torque": 37.8,
+        "Air_Temp": 302.3,
+        "Process_Temp": 310.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1517,
+        "Torque": 41.1,
+        "Air_Temp": 301.6,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1861,
+        "Torque": 21.8,
+        "Air_Temp": 301.7,
+        "Process_Temp": 310.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1719,
+        "Torque": 27.3,
+        "Air_Temp": 298.9,
+        "Process_Temp": 310.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1430,
+        "Torque": 39.1,
+        "Air_Temp": 299.2,
+        "Process_Temp": 308.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1724,
+        "Torque": 25.6,
+        "Air_Temp": 300.9,
+        "Process_Temp": 309.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1858,
+        "Torque": 25.4,
+        "Air_Temp": 302.7,
+        "Process_Temp": 312.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1613,
+        "Torque": 36.9,
+        "Air_Temp": 300.4,
+        "Process_Temp": 310.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1702,
+        "Torque": 33.1,
+        "Air_Temp": 300.5,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1703,
+        "Torque": 31.3,
+        "Air_Temp": 299.3,
+        "Process_Temp": 309.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1593,
+        "Torque": 37.0,
+        "Air_Temp": 298.3,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 2035,
+        "Torque": 19.6,
+        "Air_Temp": 298.6,
+        "Process_Temp": 309.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1480,
+        "Torque": 40.9,
+        "Air_Temp": 299.8,
+        "Process_Temp": 309.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1509,
+        "Torque": 43.1,
+        "Air_Temp": 300.6,
+        "Process_Temp": 310.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1554,
+        "Torque": 36.1,
+        "Air_Temp": 297.3,
+        "Process_Temp": 308.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1596,
+        "Torque": 30.7,
+        "Air_Temp": 297.5,
+        "Process_Temp": 308.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1531,
+        "Torque": 37.9,
+        "Air_Temp": 303.4,
+        "Process_Temp": 311.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1498,
+        "Torque": 47.1,
+        "Air_Temp": 297.0,
+        "Process_Temp": 307.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1869,
+        "Torque": 25.8,
+        "Air_Temp": 303.8,
+        "Process_Temp": 313.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1569,
+        "Torque": 31.2,
+        "Air_Temp": 300.2,
+        "Process_Temp": 309.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1409,
+        "Torque": 42.4,
+        "Air_Temp": 300.6,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1647,
+        "Torque": 31.3,
+        "Air_Temp": 297.5,
+        "Process_Temp": 308.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1526,
+        "Torque": 41.7,
+        "Air_Temp": 299.8,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1447,
+        "Torque": 42.8,
+        "Air_Temp": 302.0,
+        "Process_Temp": 309.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1340,
+        "Torque": 56.0,
+        "Air_Temp": 300.1,
+        "Process_Temp": 309.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1434,
+        "Torque": 48.0,
+        "Air_Temp": 299.8,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1607,
+        "Torque": 32.7,
+        "Air_Temp": 298.7,
+        "Process_Temp": 309.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1574,
+        "Torque": 34.8,
+        "Air_Temp": 298.0,
+        "Process_Temp": 309.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1587,
+        "Torque": 32.3,
+        "Air_Temp": 298.0,
+        "Process_Temp": 308.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1440,
+        "Torque": 43.4,
+        "Air_Temp": 301.6,
+        "Process_Temp": 309.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1461,
+        "Torque": 40.1,
+        "Air_Temp": 297.4,
+        "Process_Temp": 308.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1439,
+        "Torque": 49.9,
+        "Air_Temp": 298.6,
+        "Process_Temp": 310.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1894,
+        "Torque": 21.9,
+        "Air_Temp": 300.9,
+        "Process_Temp": 310.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1790,
+        "Torque": 27.2,
+        "Air_Temp": 298.0,
+        "Process_Temp": 308.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1444,
+        "Torque": 40.7,
+        "Air_Temp": 302.4,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1595,
+        "Torque": 38.8,
+        "Air_Temp": 300.3,
+        "Process_Temp": 311.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1509,
+        "Torque": 40.6,
+        "Air_Temp": 299.4,
+        "Process_Temp": 310.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1465,
+        "Torque": 39.7,
+        "Air_Temp": 298.7,
+        "Process_Temp": 309.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1433,
+        "Torque": 46.1,
+        "Air_Temp": 300.4,
+        "Process_Temp": 311.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1804,
+        "Torque": 27.4,
+        "Air_Temp": 297.5,
+        "Process_Temp": 309.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1340,
+        "Torque": 57.4,
+        "Air_Temp": 297.5,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1354,
+        "Torque": 53.9,
+        "Air_Temp": 298.1,
+        "Process_Temp": 308.6,
+        "Machine_Failure": 1
+      },
+      {
+        "Rot_Speed": 1574,
+        "Torque": 36.5,
+        "Air_Temp": 299.9,
+        "Process_Temp": 309.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1383,
+        "Torque": 44.6,
+        "Air_Temp": 303.0,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1569,
+        "Torque": 38.3,
+        "Air_Temp": 297.6,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1456,
+        "Torque": 47.2,
+        "Air_Temp": 302.0,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1371,
+        "Torque": 52.3,
+        "Air_Temp": 299.9,
+        "Process_Temp": 311.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1751,
+        "Torque": 23.8,
+        "Air_Temp": 302.9,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1615,
+        "Torque": 32.0,
+        "Air_Temp": 300.9,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1487,
+        "Torque": 42.2,
+        "Air_Temp": 299.9,
+        "Process_Temp": 309.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1512,
+        "Torque": 36.8,
+        "Air_Temp": 296.4,
+        "Process_Temp": 307.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1526,
+        "Torque": 36.3,
+        "Air_Temp": 300.8,
+        "Process_Temp": 310.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1701,
+        "Torque": 30.4,
+        "Air_Temp": 304.0,
+        "Process_Temp": 313.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1672,
+        "Torque": 29.7,
+        "Air_Temp": 300.7,
+        "Process_Temp": 310.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1442,
+        "Torque": 42.9,
+        "Air_Temp": 298.9,
+        "Process_Temp": 310.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1602,
+        "Torque": 38.3,
+        "Air_Temp": 297.9,
+        "Process_Temp": 307.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1449,
+        "Torque": 47.7,
+        "Air_Temp": 297.6,
+        "Process_Temp": 308.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1545,
+        "Torque": 36.4,
+        "Air_Temp": 302.4,
+        "Process_Temp": 312.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1413,
+        "Torque": 42.6,
+        "Air_Temp": 301.7,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1482,
+        "Torque": 41.4,
+        "Air_Temp": 304.2,
+        "Process_Temp": 313.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1421,
+        "Torque": 42.0,
+        "Air_Temp": 297.1,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1470,
+        "Torque": 37.6,
+        "Air_Temp": 301.8,
+        "Process_Temp": 310.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1935,
+        "Torque": 22.1,
+        "Air_Temp": 297.8,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1379,
+        "Torque": 47.3,
+        "Air_Temp": 297.9,
+        "Process_Temp": 309.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1481,
+        "Torque": 38.1,
+        "Air_Temp": 300.8,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1512,
+        "Torque": 36.9,
+        "Air_Temp": 300.7,
+        "Process_Temp": 312.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1476,
+        "Torque": 43.5,
+        "Air_Temp": 298.2,
+        "Process_Temp": 308.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1991,
+        "Torque": 20.7,
+        "Air_Temp": 298.8,
+        "Process_Temp": 308.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1314,
+        "Torque": 50.2,
+        "Air_Temp": 300.4,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1474,
+        "Torque": 40.6,
+        "Air_Temp": 300.0,
+        "Process_Temp": 309.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1479,
+        "Torque": 43.5,
+        "Air_Temp": 297.8,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1461,
+        "Torque": 47.9,
+        "Air_Temp": 298.8,
+        "Process_Temp": 308.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1495,
+        "Torque": 36.9,
+        "Air_Temp": 301.8,
+        "Process_Temp": 311.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1557,
+        "Torque": 39.1,
+        "Air_Temp": 297.5,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1489,
+        "Torque": 44.1,
+        "Air_Temp": 297.0,
+        "Process_Temp": 308.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1323,
+        "Torque": 57.9,
+        "Air_Temp": 300.5,
+        "Process_Temp": 311.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1391,
+        "Torque": 45.8,
+        "Air_Temp": 299.2,
+        "Process_Temp": 310.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1471,
+        "Torque": 38.2,
+        "Air_Temp": 297.3,
+        "Process_Temp": 308.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1422,
+        "Torque": 49.7,
+        "Air_Temp": 298.6,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1404,
+        "Torque": 48.1,
+        "Air_Temp": 298.5,
+        "Process_Temp": 308.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1691,
+        "Torque": 33.4,
+        "Air_Temp": 301.8,
+        "Process_Temp": 310.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1324,
+        "Torque": 56.9,
+        "Air_Temp": 297.4,
+        "Process_Temp": 309.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1554,
+        "Torque": 41.6,
+        "Air_Temp": 299.7,
+        "Process_Temp": 309.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1459,
+        "Torque": 45.2,
+        "Air_Temp": 297.5,
+        "Process_Temp": 308.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1781,
+        "Torque": 28.5,
+        "Air_Temp": 302.6,
+        "Process_Temp": 312.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1450,
+        "Torque": 44.3,
+        "Air_Temp": 298.6,
+        "Process_Temp": 309.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1438,
+        "Torque": 44.5,
+        "Air_Temp": 298.5,
+        "Process_Temp": 309.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1437,
+        "Torque": 47.2,
+        "Air_Temp": 304.2,
+        "Process_Temp": 313.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1580,
+        "Torque": 32.3,
+        "Air_Temp": 301.5,
+        "Process_Temp": 310.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1335,
+        "Torque": 53.0,
+        "Air_Temp": 297.2,
+        "Process_Temp": 308.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1340,
+        "Torque": 44.5,
+        "Air_Temp": 303.5,
+        "Process_Temp": 312.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1641,
+        "Torque": 34.6,
+        "Air_Temp": 300.7,
+        "Process_Temp": 310.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1621,
+        "Torque": 34.5,
+        "Air_Temp": 299.4,
+        "Process_Temp": 309.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1433,
+        "Torque": 39.5,
+        "Air_Temp": 298.2,
+        "Process_Temp": 308.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1473,
+        "Torque": 39.4,
+        "Air_Temp": 299.7,
+        "Process_Temp": 309.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1438,
+        "Torque": 58.9,
+        "Air_Temp": 303.4,
+        "Process_Temp": 311.8,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1898,
+        "Torque": 22.7,
+        "Air_Temp": 296.1,
+        "Process_Temp": 307.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 2377,
+        "Torque": 14.3,
+        "Air_Temp": 300.7,
+        "Process_Temp": 311.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1647,
+        "Torque": 28.2,
+        "Air_Temp": 301.3,
+        "Process_Temp": 311.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1509,
+        "Torque": 37.6,
+        "Air_Temp": 298.3,
+        "Process_Temp": 310.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1438,
+        "Torque": 45.6,
+        "Air_Temp": 298.1,
+        "Process_Temp": 308.4,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1375,
+        "Torque": 46.4,
+        "Air_Temp": 298.7,
+        "Process_Temp": 308.5,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1738,
+        "Torque": 24.0,
+        "Air_Temp": 297.5,
+        "Process_Temp": 308.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1633,
+        "Torque": 33.3,
+        "Air_Temp": 297.1,
+        "Process_Temp": 308.1,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1397,
+        "Torque": 49.5,
+        "Air_Temp": 299.1,
+        "Process_Temp": 310.6,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1404,
+        "Torque": 39.8,
+        "Air_Temp": 298.9,
+        "Process_Temp": 309.9,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1433,
+        "Torque": 39.2,
+        "Air_Temp": 298.0,
+        "Process_Temp": 308.0,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1480,
+        "Torque": 38.4,
+        "Air_Temp": 304.1,
+        "Process_Temp": 313.3,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1483,
+        "Torque": 39.6,
+        "Air_Temp": 299.8,
+        "Process_Temp": 309.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1543,
+        "Torque": 38.2,
+        "Air_Temp": 298.8,
+        "Process_Temp": 308.7,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1468,
+        "Torque": 49.6,
+        "Air_Temp": 299.7,
+        "Process_Temp": 309.2,
+        "Machine_Failure": 0
+      },
+      {
+        "Rot_Speed": 1789,
+        "Torque": 25.5,
+        "Air_Temp": 300.9,
+        "Process_Temp": 311.2,
+        "Machine_Failure": 0
+      }
+    ],
+    "time_series_data": [
+      {
+        "UDI": 501,
+        "Torque": 27.4,
+        "Rolling_Torque": 39.73
+      },
+      {
+        "UDI": 502,
+        "Torque": 46.2,
+        "Rolling_Torque": 39.732
+      },
+      {
+        "UDI": 503,
+        "Torque": 43.3,
+        "Rolling_Torque": 39.977999999999994
+      },
+      {
+        "UDI": 504,
+        "Torque": 48.1,
+        "Rolling_Torque": 40.216
+      },
+      {
+        "UDI": 505,
+        "Torque": 41.9,
+        "Rolling_Torque": 40.122
+      },
+      {
+        "UDI": 506,
+        "Torque": 35.0,
+        "Rolling_Torque": 39.674
+      },
+      {
+        "UDI": 507,
+        "Torque": 34.3,
+        "Rolling_Torque": 39.408
+      },
+      {
+        "UDI": 508,
+        "Torque": 48.2,
+        "Rolling_Torque": 39.3
+      },
+      {
+        "UDI": 509,
+        "Torque": 24.6,
+        "Rolling_Torque": 38.94
+      },
+      {
+        "UDI": 510,
+        "Torque": 41.3,
+        "Rolling_Torque": 38.92
+      },
+      {
+        "UDI": 511,
+        "Torque": 37.5,
+        "Rolling_Torque": 38.83
+      },
+      {
+        "UDI": 512,
+        "Torque": 39.4,
+        "Rolling_Torque": 38.814
+      },
+      {
+        "UDI": 513,
+        "Torque": 44.8,
+        "Rolling_Torque": 38.842000000000006
+      },
+      {
+        "UDI": 514,
+        "Torque": 38.8,
+        "Rolling_Torque": 39.534
+      },
+      {
+        "UDI": 515,
+        "Torque": 33.2,
+        "Rolling_Torque": 39.484
+      },
+      {
+        "UDI": 516,
+        "Torque": 28.0,
+        "Rolling_Torque": 39.186
+      },
+      {
+        "UDI": 517,
+        "Torque": 29.9,
+        "Rolling_Torque": 38.95399999999999
+      },
+      {
+        "UDI": 518,
+        "Torque": 58.2,
+        "Rolling_Torque": 39.788
+      },
+      {
+        "UDI": 519,
+        "Torque": 20.6,
+        "Rolling_Torque": 39.568000000000005
+      },
+      {
+        "UDI": 520,
+        "Torque": 19.8,
+        "Rolling_Torque": 39.31
+      },
+      {
+        "UDI": 521,
+        "Torque": 36.2,
+        "Rolling_Torque": 39.15
+      },
+      {
+        "UDI": 522,
+        "Torque": 35.8,
+        "Rolling_Torque": 39.018
+      },
+      {
+        "UDI": 523,
+        "Torque": 43.7,
+        "Rolling_Torque": 39.056000000000004
+      },
+      {
+        "UDI": 524,
+        "Torque": 45.9,
+        "Rolling_Torque": 39.234
+      },
+      {
+        "UDI": 525,
+        "Torque": 35.4,
+        "Rolling_Torque": 38.946
+      },
+      {
+        "UDI": 526,
+        "Torque": 45.5,
+        "Rolling_Torque": 39.034
+      },
+      {
+        "UDI": 527,
+        "Torque": 50.6,
+        "Rolling_Torque": 39.288
+      },
+      {
+        "UDI": 528,
+        "Torque": 35.8,
+        "Rolling_Torque": 39.176
+      },
+      {
+        "UDI": 529,
+        "Torque": 42.4,
+        "Rolling_Torque": 39.571999999999996
+      },
+      {
+        "UDI": 530,
+        "Torque": 36.2,
+        "Rolling_Torque": 39.15
+      },
+      {
+        "UDI": 531,
+        "Torque": 32.2,
+        "Rolling_Torque": 39.154
+      },
+      {
+        "UDI": 532,
+        "Torque": 34.9,
+        "Rolling_Torque": 39.062
+      },
+      {
+        "UDI": 533,
+        "Torque": 45.4,
+        "Rolling_Torque": 39.222
+      },
+      {
+        "UDI": 534,
+        "Torque": 29.8,
+        "Rolling_Torque": 38.68
+      },
+      {
+        "UDI": 535,
+        "Torque": 33.4,
+        "Rolling_Torque": 38.674
+      },
+      {
+        "UDI": 536,
+        "Torque": 52.4,
+        "Rolling_Torque": 39.108
+      },
+      {
+        "UDI": 537,
+        "Torque": 24.8,
+        "Rolling_Torque": 38.885999999999996
+      },
+      {
+        "UDI": 538,
+        "Torque": 43.0,
+        "Rolling_Torque": 39.046
+      },
+      {
+        "UDI": 539,
+        "Torque": 36.8,
+        "Rolling_Torque": 38.926
+      },
+      {
+        "UDI": 540,
+        "Torque": 25.8,
+        "Rolling_Torque": 38.326
+      },
+      {
+        "UDI": 541,
+        "Torque": 45.5,
+        "Rolling_Torque": 38.478
+      },
+      {
+        "UDI": 542,
+        "Torque": 52.3,
+        "Rolling_Torque": 38.611999999999995
+      },
+      {
+        "UDI": 543,
+        "Torque": 24.7,
+        "Rolling_Torque": 38.236
+      },
+      {
+        "UDI": 544,
+        "Torque": 36.1,
+        "Rolling_Torque": 38.181999999999995
+      },
+      {
+        "UDI": 545,
+        "Torque": 26.6,
+        "Rolling_Torque": 37.718
+      },
+      {
+        "UDI": 546,
+        "Torque": 22.1,
+        "Rolling_Torque": 37.166
+      },
+      {
+        "UDI": 547,
+        "Torque": 24.3,
+        "Rolling_Torque": 36.852
+      },
+      {
+        "UDI": 548,
+        "Torque": 39.3,
+        "Rolling_Torque": 36.854
+      },
+      {
+        "UDI": 549,
+        "Torque": 53.2,
+        "Rolling_Torque": 37.314
+      },
+      {
+        "UDI": 550,
+        "Torque": 40.4,
+        "Rolling_Torque": 37.42
+      },
+      {
+        "UDI": 551,
+        "Torque": 29.4,
+        "Rolling_Torque": 37.46
+      },
+      {
+        "UDI": 552,
+        "Torque": 54.3,
+        "Rolling_Torque": 37.622
+      },
+      {
+        "UDI": 553,
+        "Torque": 35.0,
+        "Rolling_Torque": 37.456
+      },
+      {
+        "UDI": 554,
+        "Torque": 36.0,
+        "Rolling_Torque": 37.214
+      },
+      {
+        "UDI": 555,
+        "Torque": 45.3,
+        "Rolling_Torque": 37.282000000000004
+      },
+      {
+        "UDI": 556,
+        "Torque": 42.2,
+        "Rolling_Torque": 37.426
+      },
+      {
+        "UDI": 557,
+        "Torque": 50.1,
+        "Rolling_Torque": 37.742
+      },
+      {
+        "UDI": 558,
+        "Torque": 48.3,
+        "Rolling_Torque": 37.744
+      },
+      {
+        "UDI": 559,
+        "Torque": 34.6,
+        "Rolling_Torque": 37.943999999999996
+      },
+      {
+        "UDI": 560,
+        "Torque": 40.6,
+        "Rolling_Torque": 37.93
+      },
+      {
+        "UDI": 561,
+        "Torque": 58.2,
+        "Rolling_Torque": 38.344
+      },
+      {
+        "UDI": 562,
+        "Torque": 34.4,
+        "Rolling_Torque": 38.244
+      },
+      {
+        "UDI": 563,
+        "Torque": 30.9,
+        "Rolling_Torque": 37.966
+      },
+      {
+        "UDI": 564,
+        "Torque": 35.2,
+        "Rolling_Torque": 37.894
+      },
+      {
+        "UDI": 565,
+        "Torque": 32.1,
+        "Rolling_Torque": 37.872
+      },
+      {
+        "UDI": 566,
+        "Torque": 35.8,
+        "Rolling_Torque": 38.028
+      },
+      {
+        "UDI": 567,
+        "Torque": 33.7,
+        "Rolling_Torque": 38.104
+      },
+      {
+        "UDI": 568,
+        "Torque": 30.2,
+        "Rolling_Torque": 37.544000000000004
+      },
+      {
+        "UDI": 569,
+        "Torque": 22.1,
+        "Rolling_Torque": 37.574
+      },
+      {
+        "UDI": 570,
+        "Torque": 35.2,
+        "Rolling_Torque": 37.882
+      },
+      {
+        "UDI": 571,
+        "Torque": 41.0,
+        "Rolling_Torque": 37.977999999999994
+      },
+      {
+        "UDI": 572,
+        "Torque": 29.0,
+        "Rolling_Torque": 37.842
+      },
+      {
+        "UDI": 573,
+        "Torque": 49.0,
+        "Rolling_Torque": 37.948
+      },
+      {
+        "UDI": 574,
+        "Torque": 45.0,
+        "Rolling_Torque": 37.93
+      },
+      {
+        "UDI": 575,
+        "Torque": 41.7,
+        "Rolling_Torque": 38.056
+      },
+      {
+        "UDI": 576,
+        "Torque": 55.4,
+        "Rolling_Torque": 38.254
+      },
+      {
+        "UDI": 577,
+        "Torque": 51.1,
+        "Rolling_Torque": 38.264
+      },
+      {
+        "UDI": 578,
+        "Torque": 37.7,
+        "Rolling_Torque": 38.302
+      },
+      {
+        "UDI": 579,
+        "Torque": 36.8,
+        "Rolling_Torque": 38.19
+      },
+      {
+        "UDI": 580,
+        "Torque": 31.3,
+        "Rolling_Torque": 38.092
+      },
+      {
+        "UDI": 581,
+        "Torque": 25.5,
+        "Rolling_Torque": 37.958
+      },
+      {
+        "UDI": 582,
+        "Torque": 42.9,
+        "Rolling_Torque": 38.118
+      },
+      {
+        "UDI": 583,
+        "Torque": 49.2,
+        "Rolling_Torque": 38.194
+      },
+      {
+        "UDI": 584,
+        "Torque": 32.2,
+        "Rolling_Torque": 38.242
+      },
+      {
+        "UDI": 585,
+        "Torque": 48.2,
+        "Rolling_Torque": 38.538
+      },
+      {
+        "UDI": 586,
+        "Torque": 20.5,
+        "Rolling_Torque": 37.9
+      },
+      {
+        "UDI": 587,
+        "Torque": 49.8,
+        "Rolling_Torque": 38.4
+      },
+      {
+        "UDI": 588,
+        "Torque": 33.1,
+        "Rolling_Torque": 38.202000000000005
+      },
+      {
+        "UDI": 589,
+        "Torque": 33.4,
+        "Rolling_Torque": 38.13399999999999
+      },
+      {
+        "UDI": 590,
+        "Torque": 40.2,
+        "Rolling_Torque": 38.422
+      },
+      {
+        "UDI": 591,
+        "Torque": 36.7,
+        "Rolling_Torque": 38.246
+      },
+      {
+        "UDI": 592,
+        "Torque": 41.7,
+        "Rolling_Torque": 38.034
+      },
+      {
+        "UDI": 593,
+        "Torque": 27.9,
+        "Rolling_Torque": 38.098
+      },
+      {
+        "UDI": 594,
+        "Torque": 50.7,
+        "Rolling_Torque": 38.39
+      },
+      {
+        "UDI": 595,
+        "Torque": 50.4,
+        "Rolling_Torque": 38.866
+      },
+      {
+        "UDI": 596,
+        "Torque": 53.1,
+        "Rolling_Torque": 39.486
+      },
+      {
+        "UDI": 597,
+        "Torque": 37.3,
+        "Rolling_Torque": 39.746
+      },
+      {
+        "UDI": 598,
+        "Torque": 46.6,
+        "Rolling_Torque": 39.892
+      },
+      {
+        "UDI": 599,
+        "Torque": 47.9,
+        "Rolling_Torque": 39.786
+      },
+      {
+        "UDI": 600,
+        "Torque": 31.1,
+        "Rolling_Torque": 39.6
+      },
+      {
+        "UDI": 601,
+        "Torque": 37.3,
+        "Rolling_Torque": 39.758
+      },
+      {
+        "UDI": 602,
+        "Torque": 16.8,
+        "Rolling_Torque": 39.007999999999996
+      },
+      {
+        "UDI": 603,
+        "Torque": 21.3,
+        "Rolling_Torque": 38.734
+      },
+      {
+        "UDI": 604,
+        "Torque": 71.6,
+        "Rolling_Torque": 39.446
+      },
+      {
+        "UDI": 605,
+        "Torque": 33.8,
+        "Rolling_Torque": 39.216
+      },
+      {
+        "UDI": 606,
+        "Torque": 29.9,
+        "Rolling_Torque": 38.97
+      },
+      {
+        "UDI": 607,
+        "Torque": 50.5,
+        "Rolling_Torque": 38.978
+      },
+      {
+        "UDI": 608,
+        "Torque": 33.9,
+        "Rolling_Torque": 38.69
+      },
+      {
+        "UDI": 609,
+        "Torque": 47.7,
+        "Rolling_Torque": 38.952000000000005
+      },
+      {
+        "UDI": 610,
+        "Torque": 32.5,
+        "Rolling_Torque": 38.79
+      },
+      {
+        "UDI": 611,
+        "Torque": 33.7,
+        "Rolling_Torque": 38.3
+      },
+      {
+        "UDI": 612,
+        "Torque": 40.9,
+        "Rolling_Torque": 38.43
+      },
+      {
+        "UDI": 613,
+        "Torque": 32.8,
+        "Rolling_Torque": 38.468
+      },
+      {
+        "UDI": 614,
+        "Torque": 30.0,
+        "Rolling_Torque": 38.364000000000004
+      },
+      {
+        "UDI": 615,
+        "Torque": 45.2,
+        "Rolling_Torque": 38.626
+      },
+      {
+        "UDI": 616,
+        "Torque": 30.4,
+        "Rolling_Torque": 38.518
+      },
+      {
+        "UDI": 617,
+        "Torque": 29.1,
+        "Rolling_Torque": 38.426
+      },
+      {
+        "UDI": 618,
+        "Torque": 43.1,
+        "Rolling_Torque": 38.684
+      },
+      {
+        "UDI": 619,
+        "Torque": 44.2,
+        "Rolling_Torque": 39.126000000000005
+      },
+      {
+        "UDI": 620,
+        "Torque": 44.7,
+        "Rolling_Torque": 39.316
+      },
+      {
+        "UDI": 621,
+        "Torque": 49.6,
+        "Rolling_Torque": 39.488
+      },
+      {
+        "UDI": 622,
+        "Torque": 45.3,
+        "Rolling_Torque": 39.814
+      },
+      {
+        "UDI": 623,
+        "Torque": 32.0,
+        "Rolling_Torque": 39.474000000000004
+      },
+      {
+        "UDI": 624,
+        "Torque": 23.7,
+        "Rolling_Torque": 39.048
+      },
+      {
+        "UDI": 625,
+        "Torque": 37.6,
+        "Rolling_Torque": 38.966
+      },
+      {
+        "UDI": 626,
+        "Torque": 36.3,
+        "Rolling_Torque": 38.583999999999996
+      },
+      {
+        "UDI": 627,
+        "Torque": 35.2,
+        "Rolling_Torque": 38.266
+      },
+      {
+        "UDI": 628,
+        "Torque": 42.2,
+        "Rolling_Torque": 38.356
+      },
+      {
+        "UDI": 629,
+        "Torque": 57.8,
+        "Rolling_Torque": 38.775999999999996
+      },
+      {
+        "UDI": 630,
+        "Torque": 45.9,
+        "Rolling_Torque": 39.068000000000005
+      },
+      {
+        "UDI": 631,
+        "Torque": 47.6,
+        "Rolling_Torque": 39.51
+      },
+      {
+        "UDI": 632,
+        "Torque": 37.3,
+        "Rolling_Torque": 39.397999999999996
+      },
+      {
+        "UDI": 633,
+        "Torque": 47.1,
+        "Rolling_Torque": 39.356
+      },
+      {
+        "UDI": 634,
+        "Torque": 43.9,
+        "Rolling_Torque": 39.59
+      },
+      {
+        "UDI": 635,
+        "Torque": 41.6,
+        "Rolling_Torque": 39.458
+      },
+      {
+        "UDI": 636,
+        "Torque": 23.9,
+        "Rolling_Torque": 39.525999999999996
+      },
+      {
+        "UDI": 637,
+        "Torque": 43.9,
+        "Rolling_Torque": 39.408
+      },
+      {
+        "UDI": 638,
+        "Torque": 37.4,
+        "Rolling_Torque": 39.494
+      },
+      {
+        "UDI": 639,
+        "Torque": 37.3,
+        "Rolling_Torque": 39.572
+      },
+      {
+        "UDI": 640,
+        "Torque": 51.3,
+        "Rolling_Torque": 39.794000000000004
+      },
+      {
+        "UDI": 641,
+        "Torque": 38.8,
+        "Rolling_Torque": 39.836
+      },
+      {
+        "UDI": 642,
+        "Torque": 47.9,
+        "Rolling_Torque": 39.96
+      },
+      {
+        "UDI": 643,
+        "Torque": 58.7,
+        "Rolling_Torque": 40.576
+      },
+      {
+        "UDI": 644,
+        "Torque": 36.5,
+        "Rolling_Torque": 40.292
+      },
+      {
+        "UDI": 645,
+        "Torque": 30.2,
+        "Rolling_Torque": 39.888
+      },
+      {
+        "UDI": 646,
+        "Torque": 44.1,
+        "Rolling_Torque": 39.708
+      },
+      {
+        "UDI": 647,
+        "Torque": 43.7,
+        "Rolling_Torque": 39.836000000000006
+      },
+      {
+        "UDI": 648,
+        "Torque": 36.9,
+        "Rolling_Torque": 39.641999999999996
+      },
+      {
+        "UDI": 649,
+        "Torque": 48.9,
+        "Rolling_Torque": 39.662000000000006
+      },
+      {
+        "UDI": 650,
+        "Torque": 28.8,
+        "Rolling_Torque": 39.616
+      },
+      {
+        "UDI": 651,
+        "Torque": 33.1,
+        "Rolling_Torque": 39.532
+      },
+      {
+        "UDI": 652,
+        "Torque": 38.9,
+        "Rolling_Torque": 39.974000000000004
+      },
+      {
+        "UDI": 653,
+        "Torque": 44.5,
+        "Rolling_Torque": 40.438
+      },
+      {
+        "UDI": 654,
+        "Torque": 20.1,
+        "Rolling_Torque": 39.407999999999994
+      },
+      {
+        "UDI": 655,
+        "Torque": 30.9,
+        "Rolling_Torque": 39.35
+      },
+      {
+        "UDI": 656,
+        "Torque": 38.8,
+        "Rolling_Torque": 39.528
+      },
+      {
+        "UDI": 657,
+        "Torque": 28.1,
+        "Rolling_Torque": 39.08
+      },
+      {
+        "UDI": 658,
+        "Torque": 58.6,
+        "Rolling_Torque": 39.574
+      },
+      {
+        "UDI": 659,
+        "Torque": 36.8,
+        "Rolling_Torque": 39.356
+      },
+      {
+        "UDI": 660,
+        "Torque": 49.1,
+        "Rolling_Torque": 39.688
+      },
+      {
+        "UDI": 661,
+        "Torque": 27.4,
+        "Rolling_Torque": 39.562
+      },
+      {
+        "UDI": 662,
+        "Torque": 45.6,
+        "Rolling_Torque": 39.656000000000006
+      },
+      {
+        "UDI": 663,
+        "Torque": 38.1,
+        "Rolling_Torque": 39.762
+      },
+      {
+        "UDI": 664,
+        "Torque": 44.0,
+        "Rolling_Torque": 40.042
+      },
+      {
+        "UDI": 665,
+        "Torque": 47.4,
+        "Rolling_Torque": 40.086000000000006
+      },
+      {
+        "UDI": 666,
+        "Torque": 28.1,
+        "Rolling_Torque": 40.04
+      },
+      {
+        "UDI": 667,
+        "Torque": 43.5,
+        "Rolling_Torque": 40.328
+      },
+      {
+        "UDI": 668,
+        "Torque": 48.5,
+        "Rolling_Torque": 40.436
+      },
+      {
+        "UDI": 669,
+        "Torque": 24.0,
+        "Rolling_Torque": 40.032
+      },
+      {
+        "UDI": 670,
+        "Torque": 37.7,
+        "Rolling_Torque": 39.892
+      },
+      {
+        "UDI": 671,
+        "Torque": 25.4,
+        "Rolling_Torque": 39.407999999999994
+      },
+      {
+        "UDI": 672,
+        "Torque": 34.8,
+        "Rolling_Torque": 39.198
+      },
+      {
+        "UDI": 673,
+        "Torque": 43.2,
+        "Rolling_Torque": 39.422
+      },
+      {
+        "UDI": 674,
+        "Torque": 47.7,
+        "Rolling_Torque": 39.902
+      },
+      {
+        "UDI": 675,
+        "Torque": 41.2,
+        "Rolling_Torque": 39.974000000000004
+      },
+      {
+        "UDI": 676,
+        "Torque": 45.5,
+        "Rolling_Torque": 40.158
+      },
+      {
+        "UDI": 677,
+        "Torque": 34.7,
+        "Rolling_Torque": 40.148
+      },
+      {
+        "UDI": 678,
+        "Torque": 39.7,
+        "Rolling_Torque": 40.098
+      },
+      {
+        "UDI": 679,
+        "Torque": 61.2,
+        "Rolling_Torque": 40.166
+      },
+      {
+        "UDI": 680,
+        "Torque": 47.3,
+        "Rolling_Torque": 40.194
+      },
+      {
+        "UDI": 681,
+        "Torque": 42.6,
+        "Rolling_Torque": 40.094
+      },
+      {
+        "UDI": 682,
+        "Torque": 33.2,
+        "Rolling_Torque": 40.012
+      },
+      {
+        "UDI": 683,
+        "Torque": 48.8,
+        "Rolling_Torque": 40.046
+      },
+      {
+        "UDI": 684,
+        "Torque": 24.4,
+        "Rolling_Torque": 39.656000000000006
+      },
+      {
+        "UDI": 685,
+        "Torque": 43.2,
+        "Rolling_Torque": 39.687999999999995
+      },
+      {
+        "UDI": 686,
+        "Torque": 29.7,
+        "Rolling_Torque": 39.804
+      },
+      {
+        "UDI": 687,
+        "Torque": 40.4,
+        "Rolling_Torque": 39.734
+      },
+      {
+        "UDI": 688,
+        "Torque": 42.4,
+        "Rolling_Torque": 39.833999999999996
+      },
+      {
+        "UDI": 689,
+        "Torque": 26.4,
+        "Rolling_Torque": 39.616
+      },
+      {
+        "UDI": 690,
+        "Torque": 55.6,
+        "Rolling_Torque": 39.702
+      },
+      {
+        "UDI": 691,
+        "Torque": 40.2,
+        "Rolling_Torque": 39.73
+      },
+      {
+        "UDI": 692,
+        "Torque": 39.3,
+        "Rolling_Torque": 39.558
+      },
+      {
+        "UDI": 693,
+        "Torque": 42.1,
+        "Rolling_Torque": 39.226
+      },
+      {
+        "UDI": 694,
+        "Torque": 38.3,
+        "Rolling_Torque": 39.262
+      },
+      {
+        "UDI": 695,
+        "Torque": 50.0,
+        "Rolling_Torque": 39.658
+      },
+      {
+        "UDI": 696,
+        "Torque": 45.4,
+        "Rolling_Torque": 39.684
+      },
+      {
+        "UDI": 697,
+        "Torque": 25.3,
+        "Rolling_Torque": 39.316
+      },
+      {
+        "UDI": 698,
+        "Torque": 39.7,
+        "Rolling_Torque": 39.372
+      },
+      {
+        "UDI": 699,
+        "Torque": 40.2,
+        "Rolling_Torque": 39.198
+      },
+      {
+        "UDI": 700,
+        "Torque": 39.2,
+        "Rolling_Torque": 39.406
+      },
+      {
+        "UDI": 701,
+        "Torque": 31.6,
+        "Rolling_Torque": 39.376000000000005
+      },
+      {
+        "UDI": 702,
+        "Torque": 40.1,
+        "Rolling_Torque": 39.4
+      },
+      {
+        "UDI": 703,
+        "Torque": 48.3,
+        "Rolling_Torque": 39.476
+      },
+      {
+        "UDI": 704,
+        "Torque": 40.9,
+        "Rolling_Torque": 39.892
+      },
+      {
+        "UDI": 705,
+        "Torque": 33.7,
+        "Rolling_Torque": 39.948
+      },
+      {
+        "UDI": 706,
+        "Torque": 38.2,
+        "Rolling_Torque": 39.936
+      },
+      {
+        "UDI": 707,
+        "Torque": 43.3,
+        "Rolling_Torque": 40.24
+      },
+      {
+        "UDI": 708,
+        "Torque": 27.3,
+        "Rolling_Torque": 39.614000000000004
+      },
+      {
+        "UDI": 709,
+        "Torque": 45.9,
+        "Rolling_Torque": 39.796
+      },
+      {
+        "UDI": 710,
+        "Torque": 49.7,
+        "Rolling_Torque": 39.808
+      },
+      {
+        "UDI": 711,
+        "Torque": 28.1,
+        "Rolling_Torque": 39.822
+      },
+      {
+        "UDI": 712,
+        "Torque": 46.2,
+        "Rolling_Torque": 39.833999999999996
+      },
+      {
+        "UDI": 713,
+        "Torque": 37.6,
+        "Rolling_Torque": 39.824
+      },
+      {
+        "UDI": 714,
+        "Torque": 46.4,
+        "Rolling_Torque": 39.872
+      },
+      {
+        "UDI": 715,
+        "Torque": 36.2,
+        "Rolling_Torque": 39.647999999999996
+      },
+      {
+        "UDI": 716,
+        "Torque": 59.1,
+        "Rolling_Torque": 40.268
+      },
+      {
+        "UDI": 717,
+        "Torque": 45.8,
+        "Rolling_Torque": 40.314
+      },
+      {
+        "UDI": 718,
+        "Torque": 36.9,
+        "Rolling_Torque": 40.082
+      },
+      {
+        "UDI": 719,
+        "Torque": 39.0,
+        "Rolling_Torque": 40.382
+      },
+      {
+        "UDI": 720,
+        "Torque": 58.1,
+        "Rolling_Torque": 40.79
+      },
+      {
+        "UDI": 721,
+        "Torque": 23.8,
+        "Rolling_Torque": 40.758
+      },
+      {
+        "UDI": 722,
+        "Torque": 30.9,
+        "Rolling_Torque": 40.68
+      },
+      {
+        "UDI": 723,
+        "Torque": 44.7,
+        "Rolling_Torque": 40.71
+      },
+      {
+        "UDI": 724,
+        "Torque": 46.3,
+        "Rolling_Torque": 40.682
+      },
+      {
+        "UDI": 725,
+        "Torque": 44.6,
+        "Rolling_Torque": 40.75
+      },
+      {
+        "UDI": 726,
+        "Torque": 34.2,
+        "Rolling_Torque": 40.524
+      },
+      {
+        "UDI": 727,
+        "Torque": 37.4,
+        "Rolling_Torque": 40.578
+      },
+      {
+        "UDI": 728,
+        "Torque": 37.6,
+        "Rolling_Torque": 40.536
+      },
+      {
+        "UDI": 729,
+        "Torque": 50.3,
+        "Rolling_Torque": 40.318000000000005
+      },
+      {
+        "UDI": 730,
+        "Torque": 37.7,
+        "Rolling_Torque": 40.126
+      },
+      {
+        "UDI": 731,
+        "Torque": 50.7,
+        "Rolling_Torque": 40.288000000000004
+      },
+      {
+        "UDI": 732,
+        "Torque": 53.0,
+        "Rolling_Torque": 40.684
+      },
+      {
+        "UDI": 733,
+        "Torque": 22.1,
+        "Rolling_Torque": 40.15
+      },
+      {
+        "UDI": 734,
+        "Torque": 42.0,
+        "Rolling_Torque": 40.501999999999995
+      },
+      {
+        "UDI": 735,
+        "Torque": 54.6,
+        "Rolling_Torque": 40.730000000000004
+      },
+      {
+        "UDI": 736,
+        "Torque": 32.4,
+        "Rolling_Torque": 40.784
+      },
+      {
+        "UDI": 737,
+        "Torque": 38.2,
+        "Rolling_Torque": 40.74
+      },
+      {
+        "UDI": 738,
+        "Torque": 39.2,
+        "Rolling_Torque": 40.676
+      },
+      {
+        "UDI": 739,
+        "Torque": 45.9,
+        "Rolling_Torque": 41.066
+      },
+      {
+        "UDI": 740,
+        "Torque": 41.8,
+        "Rolling_Torque": 40.790000000000006
+      },
+      {
+        "UDI": 741,
+        "Torque": 46.9,
+        "Rolling_Torque": 40.924
+      },
+      {
+        "UDI": 742,
+        "Torque": 38.8,
+        "Rolling_Torque": 40.914
+      },
+      {
+        "UDI": 743,
+        "Torque": 34.7,
+        "Rolling_Torque": 40.766
+      },
+      {
+        "UDI": 744,
+        "Torque": 53.8,
+        "Rolling_Torque": 41.076
+      },
+      {
+        "UDI": 745,
+        "Torque": 40.9,
+        "Rolling_Torque": 40.894
+      },
+      {
+        "UDI": 746,
+        "Torque": 50.7,
+        "Rolling_Torque": 41.0
+      },
+      {
+        "UDI": 747,
+        "Torque": 62.0,
+        "Rolling_Torque": 41.733999999999995
+      },
+      {
+        "UDI": 748,
+        "Torque": 48.3,
+        "Rolling_Torque": 41.90599999999999
+      },
+      {
+        "UDI": 749,
+        "Torque": 46.3,
+        "Rolling_Torque": 42.028
+      },
+      {
+        "UDI": 750,
+        "Torque": 22.3,
+        "Rolling_Torque": 41.69
+      },
+      {
+        "UDI": 751,
+        "Torque": 36.8,
+        "Rolling_Torque": 41.794
+      },
+      {
+        "UDI": 752,
+        "Torque": 24.2,
+        "Rolling_Torque": 41.476000000000006
+      },
+      {
+        "UDI": 753,
+        "Torque": 48.7,
+        "Rolling_Torque": 41.48400000000001
+      },
+      {
+        "UDI": 754,
+        "Torque": 40.4,
+        "Rolling_Torque": 41.474
+      },
+      {
+        "UDI": 755,
+        "Torque": 44.3,
+        "Rolling_Torque": 41.68599999999999
+      },
+      {
+        "UDI": 756,
+        "Torque": 43.7,
+        "Rolling_Torque": 41.79600000000001
+      },
+      {
+        "UDI": 757,
+        "Torque": 40.4,
+        "Rolling_Torque": 41.738
+      },
+      {
+        "UDI": 758,
+        "Torque": 33.7,
+        "Rolling_Torque": 41.86600000000001
+      },
+      {
+        "UDI": 759,
+        "Torque": 41.7,
+        "Rolling_Torque": 41.782
+      },
+      {
+        "UDI": 760,
+        "Torque": 36.3,
+        "Rolling_Torque": 41.514
+      },
+      {
+        "UDI": 761,
+        "Torque": 39.4,
+        "Rolling_Torque": 41.74
+      },
+      {
+        "UDI": 762,
+        "Torque": 34.6,
+        "Rolling_Torque": 41.508
+      },
+      {
+        "UDI": 763,
+        "Torque": 60.5,
+        "Rolling_Torque": 41.966
+      },
+      {
+        "UDI": 764,
+        "Torque": 47.5,
+        "Rolling_Torque": 41.988
+      },
+      {
+        "UDI": 765,
+        "Torque": 56.5,
+        "Rolling_Torque": 42.394000000000005
+      },
+      {
+        "UDI": 766,
+        "Torque": 53.9,
+        "Rolling_Torque": 42.29
+      },
+      {
+        "UDI": 767,
+        "Torque": 38.3,
+        "Rolling_Torque": 42.14
+      },
+      {
+        "UDI": 768,
+        "Torque": 31.1,
+        "Rolling_Torque": 42.023999999999994
+      },
+      {
+        "UDI": 769,
+        "Torque": 29.3,
+        "Rolling_Torque": 41.83
+      },
+      {
+        "UDI": 770,
+        "Torque": 44.5,
+        "Rolling_Torque": 41.558
+      },
+      {
+        "UDI": 771,
+        "Torque": 54.4,
+        "Rolling_Torque": 42.17
+      },
+      {
+        "UDI": 772,
+        "Torque": 58.6,
+        "Rolling_Torque": 42.724000000000004
+      },
+      {
+        "UDI": 773,
+        "Torque": 51.0,
+        "Rolling_Torque": 42.85
+      },
+      {
+        "UDI": 774,
+        "Torque": 39.4,
+        "Rolling_Torque": 42.71200000000001
+      },
+      {
+        "UDI": 775,
+        "Torque": 48.8,
+        "Rolling_Torque": 42.79599999999999
+      },
+      {
+        "UDI": 776,
+        "Torque": 46.0,
+        "Rolling_Torque": 43.032
+      },
+      {
+        "UDI": 777,
+        "Torque": 39.2,
+        "Rolling_Torque": 43.068000000000005
+      },
+      {
+        "UDI": 778,
+        "Torque": 47.5,
+        "Rolling_Torque": 43.266000000000005
+      },
+      {
+        "UDI": 779,
+        "Torque": 32.2,
+        "Rolling_Torque": 42.903999999999996
+      },
+      {
+        "UDI": 780,
+        "Torque": 29.8,
+        "Rolling_Torque": 42.746
+      },
+      {
+        "UDI": 781,
+        "Torque": 50.7,
+        "Rolling_Torque": 42.746
+      },
+      {
+        "UDI": 782,
+        "Torque": 29.7,
+        "Rolling_Torque": 42.28
+      },
+      {
+        "UDI": 783,
+        "Torque": 30.8,
+        "Rolling_Torque": 42.45399999999999
+      },
+      {
+        "UDI": 784,
+        "Torque": 33.4,
+        "Rolling_Torque": 42.282
+      },
+      {
+        "UDI": 785,
+        "Torque": 27.9,
+        "Rolling_Torque": 41.748000000000005
+      },
+      {
+        "UDI": 786,
+        "Torque": 44.8,
+        "Rolling_Torque": 41.995999999999995
+      },
+      {
+        "UDI": 787,
+        "Torque": 28.8,
+        "Rolling_Torque": 41.808
+      },
+      {
+        "UDI": 788,
+        "Torque": 45.3,
+        "Rolling_Torque": 41.93
+      },
+      {
+        "UDI": 789,
+        "Torque": 46.3,
+        "Rolling_Torque": 41.938
+      },
+      {
+        "UDI": 790,
+        "Torque": 33.3,
+        "Rolling_Torque": 41.768
+      },
+      {
+        "UDI": 791,
+        "Torque": 45.4,
+        "Rolling_Torque": 41.738
+      },
+      {
+        "UDI": 792,
+        "Torque": 35.4,
+        "Rolling_Torque": 41.67
+      },
+      {
+        "UDI": 793,
+        "Torque": 42.9,
+        "Rolling_Torque": 41.833999999999996
+      },
+      {
+        "UDI": 794,
+        "Torque": 31.8,
+        "Rolling_Torque": 41.394000000000005
+      },
+      {
+        "UDI": 795,
+        "Torque": 32.6,
+        "Rolling_Torque": 41.228
+      },
+      {
+        "UDI": 796,
+        "Torque": 37.0,
+        "Rolling_Torque": 40.95399999999999
+      },
+      {
+        "UDI": 797,
+        "Torque": 18.9,
+        "Rolling_Torque": 40.092
+      },
+      {
+        "UDI": 798,
+        "Torque": 40.1,
+        "Rolling_Torque": 39.928
+      },
+      {
+        "UDI": 799,
+        "Torque": 24.6,
+        "Rolling_Torque": 39.494
+      },
+      {
+        "UDI": 800,
+        "Torque": 34.1,
+        "Rolling_Torque": 39.73
+      }
+    ],
+    "statistical_features": {
+      "Torque": {
+        "skew": -0.009516595840058577,
+        "kurtosis": -0.013240614017022256
+      },
+      "Rot_Speed": {
+        "skew": 1.993171004713752,
+        "kurtosis": 7.392944899246482
+      }
+    },
+    "split_stats": {
+      "train": {
+        "L_0": 4612,
+        "M_0": 2331,
+        "H_0": 786,
+        "L_1": 188,
+        "M_1": 66,
+        "H_1": 17
+      },
+      "test": {
+        "L_0": 1153,
+        "M_0": 583,
+        "H_0": 196,
+        "L_1": 47,
+        "M_1": 17,
+        "H_1": 4
+      }
+    }
+  },
+  "performance": {
+    "recall": 0.8088235294117647,
+    "precision": 0.6790123456790124,
+    "f1": 0.738255033557047,
+    "roc_auc": 0.9689326817683596,
+    "roc_curve": {
+      "fpr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0005175983436853002,
+        0.0005175983436853002,
+        0.002587991718426501,
+        0.002587991718426501,
+        0.005175983436853002,
+        0.005175983436853002,
+        0.018115942028985508,
+        0.018115942028985508,
+        0.020186335403726708,
+        0.020186335403726708,
+        0.027950310559006212,
+        0.027950310559006212,
+        0.038302277432712216,
+        0.038302277432712216,
+        0.042443064182194616,
+        0.042443064182194616,
+        0.07815734989648034,
+        0.07815734989648034,
+        0.09265010351966874,
+        0.09265010351966874,
+        0.12784679089026915,
+        0.12784679089026915,
+        0.12939958592132506,
+        0.12939958592132506,
+        0.2122153209109731,
+        0.21325051759834368,
+        0.2453416149068323,
+        0.2453416149068323,
+        0.2474120082815735,
+        0.2474120082815735,
+        0.4968944099378882,
+        0.4974120082815735,
+        0.5320910973084886,
+        0.5320910973084886,
+        0.5429606625258799,
+        0.5439958592132506,
+        0.6123188405797102,
+        0.6133540372670807,
+        0.65527950310559,
+        0.6563146997929606,
+        0.6697722567287785,
+        0.6708074534161491,
+        0.7494824016563147,
+        0.7505175983436853,
+        0.7572463768115942,
+        0.7582815734989649,
+        0.8866459627329193,
+        0.8876811594202898,
+        0.9228778467908902,
+        0.9239130434782609,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.014705882352941176,
+        0.6176470588235294,
+        0.6176470588235294,
+        0.7647058823529411,
+        0.7647058823529411,
+        0.7941176470588235,
+        0.7941176470588235,
+        0.8088235294117647,
+        0.8088235294117647,
+        0.8235294117647058,
+        0.8235294117647058,
+        0.8382352941176471,
+        0.8382352941176471,
+        0.8529411764705882,
+        0.8529411764705882,
+        0.8676470588235294,
+        0.8676470588235294,
+        0.8823529411764706,
+        0.8823529411764706,
+        0.8970588235294118,
+        0.8970588235294118,
+        0.9117647058823529,
+        0.9117647058823529,
+        0.9264705882352942,
+        0.9264705882352942,
+        0.9411764705882353,
+        0.9411764705882353,
+        0.9411764705882353,
+        0.9411764705882353,
+        0.9558823529411765,
+        0.9558823529411765,
+        0.9705882352941176,
+        0.9705882352941176,
+        0.9852941176470589,
+        0.9852941176470589,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "confusion_matrix": {
+      "TN": 1906,
+      "FP": 26,
+      "FN": 13,
+      "TP": 55
+    },
+    "optimized_threshold": 0.6666666666666667,
+    "total_cost": 21100.0,
+    "cost_curve": {
+      "thresholds": [
+        0.0,
+        0.010101010101010102,
+        0.020202020202020204,
+        0.030303030303030304,
+        0.04040404040404041,
+        0.05050505050505051,
+        0.06060606060606061,
+        0.07070707070707072,
+        0.08080808080808081,
+        0.09090909090909091,
+        0.10101010101010102,
+        0.11111111111111112,
+        0.12121212121212122,
+        0.13131313131313133,
+        0.14141414141414144,
+        0.15151515151515152,
+        0.16161616161616163,
+        0.17171717171717174,
+        0.18181818181818182,
+        0.19191919191919193,
+        0.20202020202020204,
+        0.21212121212121213,
+        0.22222222222222224,
+        0.23232323232323235,
+        0.24242424242424243,
+        0.25252525252525254,
+        0.26262626262626265,
+        0.27272727272727276,
+        0.2828282828282829,
+        0.29292929292929293,
+        0.30303030303030304,
+        0.31313131313131315,
+        0.32323232323232326,
+        0.33333333333333337,
+        0.3434343434343435,
+        0.3535353535353536,
+        0.36363636363636365,
+        0.37373737373737376,
+        0.38383838383838387,
+        0.393939393939394,
+        0.4040404040404041,
+        0.4141414141414142,
+        0.42424242424242425,
+        0.43434343434343436,
+        0.4444444444444445,
+        0.4545454545454546,
+        0.4646464646464647,
+        0.4747474747474748,
+        0.48484848484848486,
+        0.494949494949495,
+        0.5050505050505051,
+        0.5151515151515152,
+        0.5252525252525253,
+        0.5353535353535354,
+        0.5454545454545455,
+        0.5555555555555556,
+        0.5656565656565657,
+        0.5757575757575758,
+        0.5858585858585859,
+        0.595959595959596,
+        0.6060606060606061,
+        0.6161616161616162,
+        0.6262626262626263,
+        0.6363636363636365,
+        0.6464646464646465,
+        0.6565656565656566,
+        0.6666666666666667,
+        0.6767676767676768,
+        0.686868686868687,
+        0.696969696969697,
+        0.7070707070707072,
+        0.7171717171717172,
+        0.7272727272727273,
+        0.7373737373737375,
+        0.7474747474747475,
+        0.7575757575757577,
+        0.7676767676767677,
+        0.7777777777777778,
+        0.787878787878788,
+        0.797979797979798,
+        0.8080808080808082,
+        0.8181818181818182,
+        0.8282828282828284,
+        0.8383838383838385,
+        0.8484848484848485,
+        0.8585858585858587,
+        0.8686868686868687,
+        0.8787878787878789,
+        0.888888888888889,
+        0.8989898989898991,
+        0.9090909090909092,
+        0.9191919191919192,
+        0.9292929292929294,
+        0.9393939393939394,
+        0.9494949494949496,
+        0.9595959595959597,
+        0.9696969696969697,
+        0.9797979797979799,
+        0.98989898989899,
+        1.0
+      ],
+      "costs": [
+        160000.0,
+        51800.0,
+        35700.0,
+        29000.0,
+        26800.0,
+        24700.0,
+        23100.0,
+        22300.0,
+        21500.0,
+        20300.0,
+        19800.0,
+        19300.0,
+        18700.0,
+        18200.0,
+        17600.0,
+        18400.0,
+        18000.0,
+        17900.0,
+        17600.0,
+        17400.0,
+        17100.0,
+        17900.0,
+        17700.0,
+        17300.0,
+        17100.0,
+        17000.0,
+        16900.0,
+        16800.0,
+        16500.0,
+        16500.0,
+        16500.0,
+        16500.0,
+        16100.0,
+        16000.0,
+        15600.0,
+        16500.0,
+        17100.0,
+        16800.0,
+        16500.0,
+        16500.0,
+        16400.0,
+        16400.0,
+        16400.0,
+        16200.0,
+        16100.0,
+        16000.0,
+        16000.0,
+        15700.0,
+        15600.0,
+        15500.0,
+        15400.0,
+        15400.0,
+        15300.0,
+        15000.0,
+        14700.0,
+        14600.0,
+        14600.0,
+        14600.0,
+        14600.0,
+        14300.0,
+        14100.0,
+        14000.0,
+        13900.0,
+        13600.0,
+        13500.0,
+        13400.0,
+        13200.0,
+        13900.0,
+        13900.0,
+        13800.0,
+        13800.0,
+        13700.0,
+        13700.0,
+        13700.0,
+        13500.0,
+        13400.0,
+        14900.0,
+        14900.0,
+        14900.0,
+        14900.0,
+        15800.0,
+        15700.0,
+        15700.0,
+        16500.0,
+        16400.0,
+        16300.0,
+        16300.0,
+        16300.0,
+        16200.0,
+        16200.0,
+        16200.0,
+        17100.0,
+        17100.0,
+        17100.0,
+        18000.0,
+        18900.0,
+        18900.0,
+        19800.0,
+        20700.0,
+        54000.0
+      ]
+    },
+    "type_metrics": {
+      "L": {
+        "samples": 1200,
+        "recall": 0.9361702127659575,
+        "precision": 0.6666666666666666
+      },
+      "M": {
+        "samples": 600,
+        "recall": 0.5294117647058824,
+        "precision": 0.6923076923076923
+      },
+      "H": {
+        "samples": 200,
+        "recall": 0.5,
+        "precision": 1.0
+      }
+    },
+    "mode_metrics": {
+      "HDF": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 35
+      },
+      "OSF": {
+        "precision": 0.9565217391304348,
+        "recall": 0.9565217391304348,
+        "f1": 0.9565217391304348,
+        "support": 23
+      },
+      "PWF": {
+        "precision": 0.9642857142857143,
+        "recall": 1.0,
+        "f1": 0.9818181818181818,
+        "support": 27
+      },
+      "TWF": {
+        "precision": 0.9230769230769231,
+        "recall": 0.8571428571428571,
+        "f1": 0.8888888888888888,
+        "support": 14
+      }
+    }
+  },
+  "feature_importance": {
+    "Tool_Wear": 1.3382844924926758,
+    "Rot_Speed": 1.3151456117630005,
+    "Power": 0.9975554347038269,
+    "Temp_Diff": 0.9241090416908264,
+    "Wear_Strain": 0.8072949647903442,
+    "Torque": 0.3822665810585022,
+    "Process_Temp": 0.27283498644828796,
+    "Type_L": 0.25604042410850525,
+    "Air_Temp": 0.14297173917293549,
+    "Type_M": 0.04434335231781006
+  },
+  "model_comparison": [
+    {
+      "name": "XGB",
+      "f1": 0.738255033557047,
+      "auc": 0.9689326817683596,
+      "recall": 0.8088235294117647
+    },
+    {
+      "name": "RF",
+      "f1": 0.8818897637795275,
+      "auc": 0.967920320302034,
+      "recall": 0.8235294117647058
+    },
+    {
+      "name": "GBM",
+      "f1": 0.8837209302325582,
+      "auc": 0.9663294665692364,
+      "recall": 0.8382352941176471
+    }
+  ],
+  "pdp": {
+    "Torque": {
+      "x": [
+        -1.649697768744608,
+        -1.6165102679053152,
+        -1.5833227670660224,
+        -1.5501352662267296,
+        -1.5169477653874368,
+        -1.483760264548144,
+        -1.4505727637088512,
+        -1.4173852628695585,
+        -1.3841977620302657,
+        -1.351010261190973,
+        -1.3178227603516801,
+        -1.2846352595123873,
+        -1.2514477586730945,
+        -1.2182602578338018,
+        -1.185072756994509,
+        -1.1518852561552162,
+        -1.1186977553159234,
+        -1.0855102544766306,
+        -1.0523227536373378,
+        -1.019135252798045,
+        -0.9859477519587523,
+        -0.9527602511194595,
+        -0.9195727502801667,
+        -0.8863852494408739,
+        -0.8531977486015812,
+        -0.8200102477622884,
+        -0.7868227469229956,
+        -0.7536352460837028,
+        -0.72044774524441,
+        -0.6872602444051172,
+        -0.6540727435658245,
+        -0.6208852427265317,
+        -0.5876977418872389,
+        -0.5545102410479461,
+        -0.5213227402086533,
+        -0.48813523936936054,
+        -0.45494773853006776,
+        -0.421760237690775,
+        -0.3885727368514822,
+        -0.3553852360121894,
+        -0.3221977351728966,
+        -0.28901023433360384,
+        -0.25582273349431106,
+        -0.22263523265501828,
+        -0.1894477318157255,
+        -0.1562602309764327,
+        -0.12307273013713993,
+        -0.08988522929784715,
+        -0.056697728458554364,
+        -0.02351022761926158,
+        0.009677273220031202,
+        0.042864774059323985,
+        0.07605227489861677,
+        0.10923977573790955,
+        0.14242727657720233,
+        0.17561477741649512,
+        0.2088022782557879,
+        0.24198977909508068,
+        0.27517727993437346,
+        0.30836478077366625,
+        0.34155228161295903,
+        0.3747397824522516,
+        0.4079272832915446,
+        0.4411147841308376,
+        0.47430228497013016,
+        0.5074897858094227,
+        0.5406772866487157,
+        0.5738647874880087,
+        0.6070522883273013,
+        0.6402397891665939,
+        0.6734272900058869,
+        0.7066147908451799,
+        0.7398022916844724,
+        0.772989792523765,
+        0.806177293363058,
+        0.839364794202351,
+        0.8725522950416436,
+        0.9057397958809361,
+        0.9389272967202291,
+        0.9721147975595221,
+        1.0053022983988147,
+        1.0384897992381072,
+        1.0716773000774003,
+        1.1048648009166933,
+        1.1380523017559858,
+        1.1712398025952784,
+        1.2044273034345714,
+        1.2376148042738644,
+        1.270802305113157,
+        1.3039898059524495,
+        1.3371773067917425,
+        1.3703648076310355,
+        1.403552308470328,
+        1.4367398093096206,
+        1.4699273101489136,
+        1.5031148109882067,
+        1.5363023118274992,
+        1.5694898126667918,
+        1.6026773135060848,
+        1.6358648143453776
+      ],
+      "y": [
+        0.05435904487967491,
+        0.05435904487967491,
+        0.05435904487967491,
+        0.05437861755490303,
+        0.05437861755490303,
+        0.05437861755490303,
+        0.05437861755490303,
+        0.05429055169224739,
+        0.05429055169224739,
+        0.05429055169224739,
+        0.05429055169224739,
+        0.05429733917117119,
+        0.05427747219800949,
+        0.05128104239702225,
+        0.05126281827688217,
+        0.050495829433202744,
+        0.050495829433202744,
+        0.050495829433202744,
+        0.050495829433202744,
+        0.050263624638319016,
+        0.049855828285217285,
+        0.049855828285217285,
+        0.049855828285217285,
+        0.049855828285217285,
+        0.0498306006193161,
+        0.0498306006193161,
+        0.04980681836605072,
+        0.04980681836605072,
+        0.04980681836605072,
+        0.049534376710653305,
+        0.049498215317726135,
+        0.049498215317726135,
+        0.049498215317726135,
+        0.04959510639309883,
+        0.04991981387138367,
+        0.04991981387138367,
+        0.04991981387138367,
+        0.04991981387138367,
+        0.04991981387138367,
+        0.04991981387138367,
+        0.04991981387138367,
+        0.04991981387138367,
+        0.04991981387138367,
+        0.0498851016163826,
+        0.0498851016163826,
+        0.0498851016163826,
+        0.05007622763514519,
+        0.05007622763514519,
+        0.05007622763514519,
+        0.05007622763514519,
+        0.0498354434967041,
+        0.0498354434967041,
+        0.0498354434967041,
+        0.04984794557094574,
+        0.049705494195222855,
+        0.04972070828080177,
+        0.04970412328839302,
+        0.04970412328839302,
+        0.04970412328839302,
+        0.04963560029864311,
+        0.04963560029864311,
+        0.04963560029864311,
+        0.04963560029864311,
+        0.05153105780482292,
+        0.054407063871622086,
+        0.054493047297000885,
+        0.055973634123802185,
+        0.055973634123802185,
+        0.055973634123802185,
+        0.055973634123802185,
+        0.055973634123802185,
+        0.056011829525232315,
+        0.05595194920897484,
+        0.05595194920897484,
+        0.05595194920897484,
+        0.05594600737094879,
+        0.05547966808080673,
+        0.05520813539624214,
+        0.05523819848895073,
+        0.055235423147678375,
+        0.055235423147678375,
+        0.055235423147678375,
+        0.05529828369617462,
+        0.05529828369617462,
+        0.05529828369617462,
+        0.05529828369617462,
+        0.05581538379192352,
+        0.05581538379192352,
+        0.05625532940030098,
+        0.05625532940030098,
+        0.05625532940030098,
+        0.05629834160208702,
+        0.057064034044742584,
+        0.05713823810219765,
+        0.057157691568136215,
+        0.057157691568136215,
+        0.057157691568136215,
+        0.05717041343450546,
+        0.057255007326602936,
+        0.057255007326602936
+      ]
+    },
+    "Rot_Speed": {
+      "x": [
+        -1.1506425822874926,
+        -1.1204242162456872,
+        -1.0902058502038818,
+        -1.0599874841620764,
+        -1.0297691181202713,
+        -0.9995507520784658,
+        -0.9693323860366605,
+        -0.9391140199948551,
+        -0.9088956539530497,
+        -0.8786772879112443,
+        -0.8484589218694389,
+        -0.8182405558276337,
+        -0.7880221897858283,
+        -0.7578038237440229,
+        -0.7275854577022176,
+        -0.6973670916604122,
+        -0.6671487256186068,
+        -0.6369303595768014,
+        -0.606711993534996,
+        -0.5764936274931908,
+        -0.5462752614513854,
+        -0.51605689540958,
+        -0.4858385293677747,
+        -0.45562016332596933,
+        -0.42540179728416394,
+        -0.39518343124235855,
+        -0.36496506520055316,
+        -0.3347466991587479,
+        -0.3045283331169425,
+        -0.2743099670751371,
+        -0.24409160103333183,
+        -0.21387323499152644,
+        -0.18365486894972105,
+        -0.15343650290791566,
+        -0.12321813686611027,
+        -0.09299977082430488,
+        -0.0627814047824995,
+        -0.03256303874069433,
+        -0.002344672698888939,
+        0.02787369334291645,
+        0.05809205938472184,
+        0.08831042542652723,
+        0.11852879146833262,
+        0.148747157510138,
+        0.17896552355194317,
+        0.20918388959374856,
+        0.23940225563555395,
+        0.26962062167735934,
+        0.29983898771916473,
+        0.3300573537609701,
+        0.3602757198027755,
+        0.3904940858445809,
+        0.4207124518863863,
+        0.45093081792819145,
+        0.48114918396999684,
+        0.5113675500118022,
+        0.5415859160536076,
+        0.571804282095413,
+        0.6020226481372184,
+        0.6322410141790238,
+        0.662459380220829,
+        0.6926777462626343,
+        0.7228961123044397,
+        0.7531144783462451,
+        0.7833328443880505,
+        0.8135512104298559,
+        0.8437695764716613,
+        0.8739879425134667,
+        0.9042063085552721,
+        0.9344246745970775,
+        0.9646430406388828,
+        0.9948614066806882,
+        1.0250797727224936,
+        1.0552981387642986,
+        1.085516504806104,
+        1.1157348708479093,
+        1.1459532368897147,
+        1.1761716029315201,
+        1.2063899689733255,
+        1.236608335015131,
+        1.2668267010569363,
+        1.2970450670987417,
+        1.327263433140547,
+        1.3574817991823525,
+        1.3877001652241578,
+        1.4179185312659632,
+        1.4481368973077686,
+        1.478355263349574,
+        1.508573629391379,
+        1.5387919954331843,
+        1.5690103614749897,
+        1.5992287275167951,
+        1.6294470935586005,
+        1.659665459600406,
+        1.6898838256422113,
+        1.7201021916840167,
+        1.750320557725822,
+        1.7805389237676275,
+        1.8107572898094328,
+        1.840975655851238
+      ],
+      "y": [
+        0.11032024025917053,
+        0.11042042076587677,
+        0.11042042076587677,
+        0.1103888601064682,
+        0.11057014763355255,
+        0.1120816022157669,
+        0.11245239526033401,
+        0.11858917027711868,
+        0.11952222883701324,
+        0.11627870798110962,
+        0.06444112956523895,
+        0.06457970291376114,
+        0.06571473926305771,
+        0.06677713245153427,
+        0.06780003756284714,
+        0.06566882878541946,
+        0.06434637308120728,
+        0.05893281102180481,
+        0.05805870145559311,
+        0.05663705989718437,
+        0.05711713433265686,
+        0.04729096591472626,
+        0.04611934348940849,
+        0.044816091656684875,
+        0.04479656368494034,
+        0.04479656368494034,
+        0.04479656368494034,
+        0.0424998439848423,
+        0.0424998439848423,
+        0.042467061430215836,
+        0.042467061430215836,
+        0.042467061430215836,
+        0.042305752635002136,
+        0.042232733219861984,
+        0.042232733219861984,
+        0.042232733219861984,
+        0.042232733219861984,
+        0.04212142154574394,
+        0.04094943404197693,
+        0.040804971009492874,
+        0.040934305638074875,
+        0.041083648800849915,
+        0.04054249823093414,
+        0.04054249823093414,
+        0.039836715906858444,
+        0.039836715906858444,
+        0.03789932280778885,
+        0.03727734461426735,
+        0.03708210587501526,
+        0.03711482882499695,
+        0.03711482882499695,
+        0.03629617020487785,
+        0.036058951169252396,
+        0.036058951169252396,
+        0.036058951169252396,
+        0.03621147572994232,
+        0.03769476339221001,
+        0.03783417120575905,
+        0.038038525730371475,
+        0.038038525730371475,
+        0.038038525730371475,
+        0.038038525730371475,
+        0.038038525730371475,
+        0.038038525730371475,
+        0.038038525730371475,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03787418454885483,
+        0.03791256248950958,
+        0.03791256248950958,
+        0.03791256248950958,
+        0.03791256248950958,
+        0.03791256248950958,
+        0.03791256248950958,
+        0.03899601846933365,
+        0.03899601846933365,
+        0.03899601846933365,
+        0.03899601846933365,
+        0.03899601846933365,
+        0.03899601846933365,
+        0.03899601846933365,
+        0.03899601846933365,
+        0.039058804512023926
+      ]
+    },
+    "Tool_Wear": {
+      "x": [
+        -1.5508726102241315,
+        -1.5196624712393838,
+        -1.488452332254636,
+        -1.4572421932698882,
+        -1.4260320542851403,
+        -1.3948219153003927,
+        -1.3636117763156448,
+        -1.3324016373308971,
+        -1.3011914983461492,
+        -1.2699813593614016,
+        -1.2387712203766537,
+        -1.207561081391906,
+        -1.1763509424071583,
+        -1.1451408034224104,
+        -1.1139306644376625,
+        -1.0827205254529149,
+        -1.0515103864681672,
+        -1.0203002474834193,
+        -0.9890901084986715,
+        -0.9578799695139237,
+        -0.926669830529176,
+        -0.8954596915444282,
+        -0.8642495525596804,
+        -0.8330394135749326,
+        -0.8018292745901849,
+        -0.7706191356054372,
+        -0.7394089966206894,
+        -0.7081988576359416,
+        -0.6769887186511938,
+        -0.645778579666446,
+        -0.6145684406816982,
+        -0.5833583016969505,
+        -0.5521481627122027,
+        -0.520938023727455,
+        -0.4897278847427071,
+        -0.45851774575795945,
+        -0.42730760677321156,
+        -0.3960974677884639,
+        -0.364887328803716,
+        -0.3336771898189683,
+        -0.30246705083422043,
+        -0.27125691184947276,
+        -0.24004677286472487,
+        -0.2088366338799772,
+        -0.1776264948952293,
+        -0.14641635591048163,
+        -0.11520621692573374,
+        -0.08399607794098607,
+        -0.0527859389562384,
+        -0.021575799971490506,
+        0.009634339013257165,
+        0.04084447799800506,
+        0.07205461698275273,
+        0.10326475596750062,
+        0.1344748949522483,
+        0.16568503393699618,
+        0.19689517292174386,
+        0.22810531190649175,
+        0.2593154508912394,
+        0.2905255898759873,
+        0.321735728860735,
+        0.3529458678454829,
+        0.38415600683023055,
+        0.41536614581497844,
+        0.4465762847997261,
+        0.477786423784474,
+        0.5089965627692215,
+        0.5402067017539693,
+        0.5714168407387172,
+        0.6026269797234651,
+        0.6338371187082126,
+        0.6650472576929605,
+        0.6962573966777084,
+        0.7274675356624563,
+        0.7586776746472037,
+        0.7898878136319516,
+        0.8210979526166995,
+        0.8523080916014474,
+        0.8835182305861948,
+        0.9147283695709427,
+        0.9459385085556906,
+        0.9771486475404381,
+        1.008358786525186,
+        1.0395689255099338,
+        1.0707790644946817,
+        1.1019892034794292,
+        1.133199342464177,
+        1.164409481448925,
+        1.1956196204336729,
+        1.2268297594184203,
+        1.2580398984031682,
+        1.289250037387916,
+        1.320460176372664,
+        1.3516703153574114,
+        1.3828804543421593,
+        1.4140905933269072,
+        1.4453007323116547,
+        1.4765108712964026,
+        1.5077210102811505,
+        1.5389311492658984
+      ],
+      "y": [
+        0.03731021285057068,
+        0.03731021285057068,
+        0.03731021285057068,
+        0.03731021285057068,
+        0.03731021285057068,
+        0.03731021285057068,
+        0.03731021285057068,
+        0.03731021285057068,
+        0.03731021285057068,
+        0.03731021285057068,
+        0.03731021285057068,
+        0.03729075565934181,
+        0.03729075565934181,
+        0.03729075565934181,
+        0.03729075565934181,
+        0.03729075565934181,
+        0.04640045762062073,
+        0.04386752098798752,
+        0.04386752098798752,
+        0.04386752098798752,
+        0.04386752098798752,
+        0.04386752098798752,
+        0.04386752098798752,
+        0.04386752098798752,
+        0.04386752098798752,
+        0.04386752098798752,
+        0.04386752098798752,
+        0.04386752098798752,
+        0.04386752098798752,
+        0.04386752098798752,
+        0.04416484013199806,
+        0.04446236044168472,
+        0.044675473123788834,
+        0.04501615837216377,
+        0.04519021883606911,
+        0.04548688977956772,
+        0.04549229517579079,
+        0.04549229517579079,
+        0.03803589940071106,
+        0.03769955039024353,
+        0.03769955039024353,
+        0.03769955039024353,
+        0.03762272000312805,
+        0.03692826256155968,
+        0.03692826256155968,
+        0.03680165857076645,
+        0.03700549900531769,
+        0.036959968507289886,
+        0.036959968507289886,
+        0.036959968507289886,
+        0.03695563226938248,
+        0.03636965528130531,
+        0.03626568987965584,
+        0.03626568987965584,
+        0.03626568987965584,
+        0.03624757379293442,
+        0.03624757379293442,
+        0.03624757379293442,
+        0.03624757379293442,
+        0.03624757379293442,
+        0.03641397878527641,
+        0.03717944398522377,
+        0.037194110453128815,
+        0.03721902146935463,
+        0.03721902146935463,
+        0.03721902146935463,
+        0.03721902146935463,
+        0.037372007966041565,
+        0.037372007966041565,
+        0.03742055967450142,
+        0.03742055967450142,
+        0.03742055967450142,
+        0.037648726254701614,
+        0.03794722259044647,
+        0.03829733654856682,
+        0.0402107909321785,
+        0.04020706191658974,
+        0.04021277278661728,
+        0.04429769888520241,
+        0.0493776835501194,
+        0.04938790947198868,
+        0.04938790947198868,
+        0.04938790947198868,
+        0.04938790947198868,
+        0.049799613654613495,
+        0.05152953043580055,
+        0.05183300003409386,
+        0.05183300003409386,
+        0.051942482590675354,
+        0.051880866289138794,
+        0.051943518221378326,
+        0.051943518221378326,
+        0.051943518221378326,
+        0.05194553732872009,
+        0.0567520335316658,
+        0.05992408096790314,
+        0.09295051544904709,
+        0.11792411655187607,
+        0.17496803402900696,
+        0.27355068922042847
+      ]
+    }
+  },
+  "preprocessing": {
+    "original_counts": {
+      "0": 6183,
+      "1": 217
+    },
+    "resampled_counts": {
+      "0": 6183,
+      "1": 6183
+    }
+  }
+}

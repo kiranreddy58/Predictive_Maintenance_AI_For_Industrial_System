@@ -1,0 +1,1 @@
+{"threshold": 0.6666666666666667, "features": ["Air_Temp", "Process_Temp", "Rot_Speed", "Torque", "Tool_Wear", "Temp_Diff", "Power", "Wear_Strain", "Type_L", "Type_M"], "costs": {"FN": 1000, "FP": 100}}
