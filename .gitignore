@@ -39,3 +39,9 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# System/AI Data
+.gemini/
+.antigravityignore
+brain/
+*.log
