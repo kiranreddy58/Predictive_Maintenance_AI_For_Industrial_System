@@ -14,7 +14,7 @@ services:
     name: predictive-maintenance-ui
     env: static
     buildCommand: cd frontend && npm install && npm run build
-    staticPublishDir: frontend/dist
+    staticPublishPath: frontend/dist
     envVars:
       - key: VITE_API_BASE_URL
         fromService:
