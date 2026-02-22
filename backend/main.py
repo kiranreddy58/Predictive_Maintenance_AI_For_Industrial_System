@@ -5,6 +5,7 @@ import joblib
 import json
 import pandas as pd
 import numpy as np
+import os
 from typing import Optional
 
 app = FastAPI(
@@ -24,12 +25,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Load Models and Config
-MODEL_PATH = "../model_ai4i.joblib"
-CONFIG_PATH = "../model_config_ai4i.json"
-DIAG_MODEL_PATH = "../diag_model.joblib"
-DIAG_ENC_PATH = "../diag_label_encoder.joblib"
-DATA_PATH = "../ai4i2020.csv"
+# Load Models and Config - Robust Paths
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "..", "model_ai4i.joblib")
+CONFIG_PATH = os.path.join(BASE_DIR, "..", "model_config_ai4i.json")
+DIAG_MODEL_PATH = os.path.join(BASE_DIR, "..", "diag_model.joblib")
+DIAG_ENC_PATH = os.path.join(BASE_DIR, "..", "diag_label_encoder.joblib")
+DATA_PATH = os.path.join(BASE_DIR, "..", "ai4i2020.csv")
+EVAL_RESULTS_PATH = os.path.join(BASE_DIR, "..", "evaluation_results.json")
 
 try:
     model = joblib.load(MODEL_PATH)
@@ -172,7 +175,7 @@ def predict(input_data: PredictionInput):
 @app.get("/analysis/data")
 def get_analysis_data():
     try:
-        with open("../evaluation_results.json", "r") as f:
+        with open(EVAL_RESULTS_PATH, "r") as f:
             data = json.load(f)
         return data
     except FileNotFoundError:
