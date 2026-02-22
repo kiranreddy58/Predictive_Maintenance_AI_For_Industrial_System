@@ -10,11 +10,11 @@ services:
         value: 3.10.0
 
   # Frontend React Static Site
-  - type: static
+  - type: static_site
     name: predictive-maintenance-ui
     env: node
     buildCommand: cd frontend && npm install && npm run build
-    staticPublishDir: frontend/dist
+    publishDir: frontend/dist
     envVars:
       - key: VITE_API_BASE_URL
         fromService:
