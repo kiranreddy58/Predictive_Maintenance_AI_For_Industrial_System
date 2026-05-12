@@ -153,7 +153,7 @@ def predict(input_data: PredictionInput):
     elif prob >= threshold:
         risk = "WARNING"
         msg = f"Potential Issue Detected. Diagnosis: {failure_mode}"
-        cost = costs['TP']
+        cost = costs.get('TP', 100)
     else:
         risk = "SAFE"
         msg = "System operating within normal parameters."
